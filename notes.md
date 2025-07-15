@@ -15,11 +15,16 @@
 - metadata w headzie, fonty
 - obiekt/badge w CSS + modal/warstwa po kliku
 - czy w md mogę ingerować w sposób stylowania?
-- problemy z odświeżaniem preview
-- Copilot nightmare - alternatywa?
+- problemy z odświeżaniem preview - live server
+- Copilot nightmare - alternatywa? OFF
 - dokończyć ustawienia/przegląd możliwości w VS Code -->
 - --> sprawdzić WebStorm (zmigrowane ustawienia z VS)
 - co mogę robić mobilne? tylko notes, apka do edytowania .html
+  https://www.monotype.com/font-pairing dobrać fonty
+  hasło staging commit
+  doczytać o branchu origin
+  system zmian GDocs CRDT (czyli oparte na czasie) vs Git - merge conflict (czyli spr, czy mają wpływ na siebie, porównują różnice i pyta)
+  do html: dodać nav, header, czemu divy?
 
 # prev notes
 
