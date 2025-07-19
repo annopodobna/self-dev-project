@@ -76,5 +76,10 @@ thanks, I hate it
 
 In the context of Markdown, "linting" refers to the automated process of checking a Markdown file for stylistic and formatting errors. A "linter" is the tool that performs this analysis, flagging inconsistencies and potential problems that could affect the document's rendering or readability.
 
+# IDE
+
+Note: Integrated Development Environments (IDEs) such as NetBeans (multiplatform, free), and WebStorm (multiplatform, not free) have more features than simple code editors but tend to be more complex than what you need at this stage in your learning journey.
+
+
 - alt + click - kolejny kursor
 - cltr +fn +f2 - kolejny kursor na zaznaczonym tekście
