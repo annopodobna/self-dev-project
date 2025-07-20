@@ -72,11 +72,17 @@ thanks, I hate it
 
 # random notes
 
+## comments in HTML 
+<!-- code you want to disable -->
+
+You can use comments to temporarily disable part of your code so it’s not displayed by the browser.
+
+
 ## lint w Markdown
 
 In the context of Markdown, "linting" refers to the automated process of checking a Markdown file for stylistic and formatting errors. A "linter" is the tool that performs this analysis, flagging inconsistencies and potential problems that could affect the document's rendering or readability.
 
-# IDE
+## IDE
 
 Note: Integrated Development Environments (IDEs) such as NetBeans (multiplatform, free), and WebStorm (multiplatform, not free) have more features than simple code editors but tend to be more complex than what you need at this stage in your learning journey.
 
