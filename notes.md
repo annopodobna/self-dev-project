@@ -73,10 +73,13 @@ thanks, I hate it
 # random notes
 
 ## comments in HTML 
-<!-- code you want to disable -->
+< !-- code you want to disable -- >
 
 You can use comments to temporarily disable part of your code so it’s not displayed by the browser.
 
+## html is not case-sensitive
+
+but it's nice to keep things lowercase and tidy :) 
 
 ## lint w Markdown
 
