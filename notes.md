@@ -1,30 +1,35 @@
 # current to dos
 
-- na razie tylko html ^ dane, bez kombinacji **kinda done**
-- preview do VS code **done**
-- _self note:_ praca w folderze współdzielonym (służbowy komp + prywatny) **done**
-- Prettier formatter **done**
-- wymyslić sposób pracy **in progress i guess?** (GDrive, GKeep notes, do ogarnięcia: regularne sloty + mobile code editor)
-- temat strony -> domena (żeby później wykorzystać) **kinda done**
-- index.html create **done**
-
-<br>
-
 - bullety na sekcje z headingami + zmienić/dodać grid, layout
 - dodać media
 - metadata w headzie, fonty
 - obiekt/badge w CSS + modal/warstwa po kliku
-- czy w md mogę ingerować w sposób stylowania?
-- problemy z odświeżaniem preview - live server
-- Copilot nightmare - alternatywa? OFF
-- dokończyć ustawienia/przegląd możliwości w VS Code -->
-- --> sprawdzić WebStorm (zmigrowane ustawienia z VS)
-- co mogę robić mobilne? tylko notes, apka do edytowania .html
-  https://www.monotype.com/font-pairing dobrać fonty
+- problemy z odświeżaniem preview
+- dokończyć ustawienia/przegląd możliwości w VS Code
+- https://www.monotype.com/font-pairing dobrać fonty
   hasło staging commit
   doczytać o branchu origin
   system zmian GDocs CRDT (czyli oparte na czasie) vs Git - merge conflict (czyli spr, czy mają wpływ na siebie, porównują różnice i pyta)
   do html: dodać nav, header, czemu divy?
+
+- na razie tylko html ^ dane, bez kombinacji **kinda done**
+- wymyslić sposób pracy **in progress i guess?** (GDrive, GKeep notes, mobile code editing; do ogarnięcia: regularne sloty na pracę)
+- temat strony -> domena (żeby później wykorzystać) **kinda done**
+- index.html create **done**
+
+## side quests - mniej ważne, do doczytania
+
+- czy w md mogę ingerować w sposób stylowania?
+- alternatywa typu code coach dla Copilota
+- --> sprawdzić WebStorm (gdy będę mogła już zmigrować ustawienia z VS)
+
+## already done
+
+- preview do VS code **done**
+- _self note:_ praca w folderze współdzielonym (służbowy komp + prywatny) **done**
+- Prettier formatter **done**
+- co mogę robić mobilne? tylko notes, apka do edytowania .html **done**
+- Copilot nightmare <--- wyłączony lol **done**
 
 # prev notes
 
@@ -72,14 +77,15 @@ thanks, I hate it
 
 # random notes
 
-## comments in HTML 
+## comments in HTML
+
 < !-- code you want to disable -- >
 
 You can use comments to temporarily disable part of your code so it’s not displayed by the browser.
 
 ## html is not case-sensitive
 
-but it's nice to keep things lowercase and tidy :) 
+but it's nice to keep things lowercase and tidy :)
 
 ## lint w Markdown
 
@@ -88,7 +94,6 @@ In the context of Markdown, "linting" refers to the automated process of checkin
 ## IDE
 
 Note: Integrated Development Environments (IDEs) such as NetBeans (multiplatform, free), and WebStorm (multiplatform, not free) have more features than simple code editors but tend to be more complex than what you need at this stage in your learning journey.
-
 
 - alt + click - kolejny kursor
 - cltr +fn +f2 - kolejny kursor na zaznaczonym tekście
