@@ -1,37 +1,68 @@
-# current to dos
+> - [👇 current to dos](#current-to-dos)
+> - [👀 prev meetings](#prev-meetings)
+> - [📝 random notes](#random-notes)
 
+<hr><hr>
+
+# **current to dos**
+
+#### > html
+
+- temat strony -> domena (żeby później wykorzystać) **kinda done**
 - bullety na sekcje z headingami + zmienić/dodać grid, layout
 - dodać media
 - metadata w headzie, fonty
-- obiekt/badge w CSS + modal/warstwa po kliku
+- https://www.monotype.com/font-pairing dobrać fonty
+- dodać nav, header, czemu divy?
+- na razie tylko html ^ dane, bez kombinacji **kinda done**
+
+#### > workflow
+
+- sync/pull z gh przy uruchomieniu VSCode (albo chociaż info)
+- pozbyć się Google Drive z tego równania
 - problemy z odświeżaniem preview
 - dokończyć ustawienia/przegląd możliwości w VS Code
-- https://www.monotype.com/font-pairing dobrać fonty
-  hasło staging commit
-  doczytać o branchu origin
-  system zmian GDocs CRDT (czyli oparte na czasie) vs Git - merge conflict (czyli spr, czy mają wpływ na siebie, porównują różnice i pyta)
-  do html: dodać nav, header, czemu divy?
+- wymyslić sposób pracy **in progress i guess?** (~~GDrive~~, GKeep notes, mobile code editing; do ogarnięcia: regularne sloty na pracę)
 
-- na razie tylko html ^ dane, bez kombinacji **kinda done**
-- wymyslić sposób pracy **in progress i guess?** (GDrive, GKeep notes, mobile code editing; do ogarnięcia: regularne sloty na pracę)
-- temat strony -> domena (żeby później wykorzystać) **kinda done**
-- index.html create **done**
+#### > know more
 
-## side quests - mniej ważne, do doczytania
+- hasło staging commit
+- doczytać o branchu origin
 
+## _side quests - mniej ważne, do doczytania_
+
+- na kiedyś: notatki nie w markdownie, może html? chciałabym spis treści, linkowanie
+- doczytać: system zmian GDocs CRDT (czyli oparte na czasie) vs Git merge conflict (czyli spr, czy mają wpływ na siebie, porównują różnice i pyta)
 - czy w md mogę ingerować w sposób stylowania?
 - alternatywa typu code coach dla Copilota
 - --> sprawdzić WebStorm (gdy będę mogła już zmigrować ustawienia z VS)
+  (nieaktualne, do idead1) - obiekt/badge w CSS + modal/warstwa po kliku
 
-## already done
+## ✅ already done
 
-- preview do VS code **done**
-- _self note:_ praca w folderze współdzielonym (służbowy komp + prywatny) **done**
-- Prettier formatter **done**
-- co mogę robić mobilne? tylko notes, apka do edytowania .html **done**
-- Copilot nightmare <--- wyłączony lol **done**
+- index.html create
+- preview do VS code
+- praca w folderze współdzielonym (służbowy komp + prywatny)
+- Prettier formatter
+- co mogę robić mobilne? tylko notes, apka do edytowania .html
+- Copilot nightmare <--- wyłączony lol
 
-# prev notes
+<hr><hr>
+
+# **prev meetings**
+
+## 29.07
+
+🎵 **What I've Done.mp3** 🎶
+
+- przypomniałam sobie md, żeby mniej się wkurzać na formę notatek (i więcej w nich widzieć)
+- zmieniłam koncepcję contentu/tematyki strony 🙃 (czy ostatecznie? zobaczymy...)
+- odkryłam [MDN Web Docs](https://developer.mozilla.org/en-US/)
+
+<br>
+
+- mieszkanka.site ? jako nazwa domeny
+- I'm struggling with content and decision making
 
 ## 15.07
 
@@ -73,9 +104,15 @@
 
 thanks, I hate it
 
-<hr>
+<hr><hr>
 
-# random notes
+# **random notes**
+
+## skróty VS Code
+
+- alt + click - kolejny kursor
+- ctrl + fn + f2 - kolejny kursor na zaznaczonym tekście
+- Markdown: triple click na preview -> przenosi do danego wiersza w .md
 
 ## comments in HTML
 
@@ -95,5 +132,8 @@ In the context of Markdown, "linting" refers to the automated process of checkin
 
 Note: Integrated Development Environments (IDEs) such as NetBeans (multiplatform, free), and WebStorm (multiplatform, not free) have more features than simple code editors but tend to be more complex than what you need at this stage in your learning journey.
 
-- alt + click - kolejny kursor
-- cltr +fn +f2 - kolejny kursor na zaznaczonym tekście
+## język programowania vs język znaczników
+
+Język programowania służy do tworzenia instrukcji, które komputer wykonuje, aby rozwiązać problem, przetworzyć dane, lub wykonać jakieś operacje. Języki programowania posiadają logikę, zmienne, pętle, warunki (np. if/else), funkcje, klasy itp. Przykłady to Python, Java, C++, JavaScript (używany po stronie klienta i serwera), PHP.
+
+Język znaczników (markup language) służy do strukturyzowania i formatowania danych. Definiuje on, jak treść powinna być wyświetlana i zorganizowana, ale nie wykonuje żadnych operacji logicznych.
