@@ -114,25 +114,39 @@ thanks, I hate it
 - ctrl + fn + f2 - kolejny kursor na zaznaczonym tekście
 - Markdown: triple click na preview -> przenosi do danego wiersza w .md
 
-## comments in HTML
+## HTML
+
+### importowanie fontów z Google
+
+Zawsze podawaj generyczną rodzinę czcionek (np. sans-serif, serif, monospace) jako rezerwę. Jeśli z jakiegoś powodu czcionka Google nie zostanie załadowana (np. problem z siecią), przeglądarka użyje domyślnej czcionki z tej generycznej rodziny, co poprawi doświadczenie użytkownika.
+
+Nie importuj zbyt wielu czcionek ani stylów. Każda dodatkowa czcionka i styl zwiększa rozmiar strony i czas ładowania. Wybieraj tylko te, których naprawdę potrzebujesz.
+
+Zwróć uwagę na parametr display=swap w linku. Jest to zalecana praktyka (domyślna w Google Fonts), która pomaga poprawić wydajność. Powoduje, że tekst jest początkowo renderowany z domyślną czcionką systemową, a następnie przełącza się na czcionkę Google, gdy ta zostanie załadowana, zapobiegając "niewidzialnemu tekstowi podczas ładowania".
+
+### comments in HTML
 
 < !-- code you want to disable -- >
 
 You can use comments to temporarily disable part of your code so it’s not displayed by the browser.
 
-## html is not case-sensitive
+### html is not case-sensitive
 
 but it's nice to keep things lowercase and tidy :)
+
+## Markdown
 
 ## lint w Markdown
 
 In the context of Markdown, "linting" refers to the automated process of checking a Markdown file for stylistic and formatting errors. A "linter" is the tool that performs this analysis, flagging inconsistencies and potential problems that could affect the document's rendering or readability.
 
-## IDE
+## ogólna terminologia itd.
+
+### IDE
 
 Note: Integrated Development Environments (IDEs) such as NetBeans (multiplatform, free), and WebStorm (multiplatform, not free) have more features than simple code editors but tend to be more complex than what you need at this stage in your learning journey.
 
-## język programowania vs język znaczników
+### język programowania vs język znaczników
 
 Język programowania służy do tworzenia instrukcji, które komputer wykonuje, aby rozwiązać problem, przetworzyć dane, lub wykonać jakieś operacje. Języki programowania posiadają logikę, zmienne, pętle, warunki (np. if/else), funkcje, klasy itp. Przykłady to Python, Java, C++, JavaScript (używany po stronie klienta i serwera), PHP.
 
