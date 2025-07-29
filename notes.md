@@ -9,24 +9,26 @@
 #### > html
 
 - temat strony -> domena (żeby później wykorzystać) **kinda done** mieszkanka.site / 1000thingsiwantedtobe.com
-- dodać media
-- metadata w headzie, fonty
-- https://www.monotype.com/font-pairing dobrać fonty
-- dodać nav, header, czemu divy?
-- na razie tylko html ^ dane, bez kombinacji **kinda done**
+- dodawać content i media **forever in progress**
+- metadata w headzie, [dobrać fonty](https://www.monotype.com/font-pairing) **in progress, nie podoba mi się jeszcze**
+- CSS: klasa dla linków tylko w buttonie (żeby zabrać podkreślenie tylko im)
+- CSS: buttony w jednym rzędzie (flexbox? coś byłooo)
 
 #### > workflow
 
+- skrócić czas wyświetlania wskazówek albo wydłużyć hover time, bo oszaleję xd
 - sync/pull z gh przy uruchomieniu VSCode (albo chociaż info)
 - pozbyć się Google Drive z tego równania
-- problemy z odświeżaniem preview
+- problemy z odświeżaniem preview - inne rozszerzenie?
 - dokończyć ustawienia/przegląd możliwości w VS Code
 - wymyslić sposób pracy **in progress i guess?** (~~GDrive~~, GKeep notes, mobile code editing; do ogarnięcia: regularne sloty na pracę)
 
 #### > know more
 
+- doczytać jeszcze tagi semantyczne
 - hasło staging commit **in progress** proces dzielenia na osobne commity zmian z jednego "czasu"; żeby był porządek w historii
 - doczytać o branchu origin **in progress** origin/main ->
+- CLI przypominajka mocno
 
 ## _side quests - mniej ważne, do doczytania_
 
@@ -40,6 +42,7 @@
 ## ✅ already done
 
 - index.html create
+- na razie tylko html ^ raw content, bez kombinacji **in progess forever**
 - preview do VS code
 - praca w folderze współdzielonym (służbowy komp + prywatny)
 - Prettier formatter
@@ -64,6 +67,8 @@
 - stworzyłam Workspace w VSCode, żeby nie mieszać projektu z rzeczami, które czasem sobie tu otwieram
 
 <br>
+
+HOP do [👆 current to dos](#current-to-dos)
 
 - mieszkanka.site ? jako nazwa domeny
 - I'm struggling with content and decision making
