@@ -8,8 +8,7 @@
 
 #### > html
 
-- temat strony -> domena (żeby później wykorzystać) **kinda done**
-- bullety na sekcje z headingami + zmienić/dodać grid, layout
+- temat strony -> domena (żeby później wykorzystać) **kinda done** mieszkanka.site / 1000thingsiwantedtobe.com
 - dodać media
 - metadata w headzie, fonty
 - https://www.monotype.com/font-pairing dobrać fonty
@@ -46,6 +45,7 @@
 - Prettier formatter
 - co mogę robić mobilne? tylko notes, apka do edytowania .html
 - Copilot nightmare <--- wyłączony lol
+- bullety na sekcje z headingami
 
 <hr><hr>
 
@@ -58,6 +58,8 @@
 - przypomniałam sobie md, żeby mniej się wkurzać na formę notatek (i więcej w nich widzieć)
 - zmieniłam koncepcję contentu/tematyki strony 🙃 (czy ostatecznie? zobaczymy...)
 - odkryłam [MDN Web Docs](https://developer.mozilla.org/en-US/)
+- odpaliłam styles.css, żeby potem nie kombinować
+- przejrzałam tysiąc fontów i żaden mi się nie podoba :p
 
 <br>
 
