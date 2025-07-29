@@ -7,18 +7,18 @@ h1 {
 }
 h2 {
   margin-bottom: 0.5em;
-  font-family: "Crimson Text", serif;
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 900;
+  font-weight: 600;
   font-style: normal;
 }
 
 h3 {
   margin-bottom: 0.5em;
-  font-family: "Crimson Text", serif;
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
-  font-style: normal;
+  font-style: oblique;
 }
 
 p {
@@ -39,4 +39,15 @@ li {
   font-family: "Inter", sans-serif;
   font-weight: 300;
   font-style: normal;
+}
+
+button {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
