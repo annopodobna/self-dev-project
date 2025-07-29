@@ -13,11 +13,14 @@
 - metadata w headzie, [dobrać fonty](https://www.monotype.com/font-pairing) **in progress, nie podoba mi się jeszcze**
 - CSS: klasa dla linków tylko w buttonie (żeby zabrać podkreślenie tylko im)
 - CSS: buttony w jednym rzędzie (flexbox? coś byłooo)
+- [schema](https://schema.org/) / microdata / https://schema.org/docs/gs.html
+- nagłówki h1 per sekcja
+- ligatury
 
 #### > workflow
 
 - skrócić czas wyświetlania wskazówek albo wydłużyć hover time, bo oszaleję xd
-- sync/pull z gh przy uruchomieniu VSCode (albo chociaż info)
+- prywatny komp: zreplikować błąd; sync/pull z gh przy uruchomieniu VSCode (albo chociaż info)
 - pozbyć się Google Drive z tego równania
 - problemy z odświeżaniem preview - inne rozszerzenie?
 - dokończyć ustawienia/przegląd możliwości w VS Code
@@ -29,6 +32,7 @@
 - hasło staging commit **in progress** proces dzielenia na osobne commity zmian z jednego "czasu"; żeby był porządek w historii
 - doczytać o branchu origin **in progress** origin/main ->
 - CLI przypominajka mocno
+- xml -> html
 
 ## _side quests - mniej ważne, do doczytania_
 
