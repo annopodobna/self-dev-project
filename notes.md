@@ -25,8 +25,8 @@
 
 #### > know more
 
-- hasło staging commit
-- doczytać o branchu origin
+- hasło staging commit **in progress** proces dzielenia na osobne commity zmian z jednego "czasu"; żeby był porządek w historii
+- doczytać o branchu origin **in progress** origin/main ->
 
 ## _side quests - mniej ważne, do doczytania_
 
@@ -58,8 +58,9 @@
 - przypomniałam sobie md, żeby mniej się wkurzać na formę notatek (i więcej w nich widzieć)
 - zmieniłam koncepcję contentu/tematyki strony 🙃 (czy ostatecznie? zobaczymy...)
 - odkryłam [MDN Web Docs](https://developer.mozilla.org/en-US/)
-- odpaliłam styles.css, żeby potem nie kombinować
+- odpaliłam i podpięłam styles.css, żeby nie kombinować ręcznie ze stylowaniem
 - przejrzałam tysiąc fontów i żaden mi się nie podoba :p
+- poprawiłam sobie układ i nazwy folderów/repozytorium, nauczyłam się jak to edytować i od czego zależy połączenie Git<=>local (m.in. update nazwy repo w terminalu)
 
 <br>
 
@@ -112,6 +113,7 @@ thanks, I hate it
 
 ## skróty VS Code
 
+- ctrl + D -> zaznacz frazę/słowo; kolejny raz -> zaznacz kolejne i kolejne frazy (kolejny kursor)
 - alt + click - kolejny kursor
 - ctrl + fn + f2 - kolejny kursor na zaznaczonym tekście
 - Markdown: triple click na preview -> przenosi do danego wiersza w .md
