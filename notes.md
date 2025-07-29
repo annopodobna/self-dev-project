@@ -11,10 +11,8 @@
 - temat strony -> domena (żeby później wykorzystać) **kinda done** mieszkanka.site / 1000thingsiwantedtobe.com
 - dodawać content i media **forever in progress**
 - metadata w headzie, [dobrać fonty](https://www.monotype.com/font-pairing) **in progress, nie podoba mi się jeszcze**
-- CSS: klasa dla linków tylko w buttonie (żeby zabrać podkreślenie tylko im)
 - CSS: buttony w jednym rzędzie (flexbox? coś byłooo)
 - [schema](https://schema.org/) / microdata / https://schema.org/docs/gs.html
-- nagłówki h1 per sekcja
 - ligatury
 
 #### > workflow
@@ -53,6 +51,8 @@
 - co mogę robić mobilne? tylko notes, apka do edytowania .html
 - Copilot nightmare <--- wyłączony lol
 - bullety na sekcje z headingami
+- nagłówki h1 per sekcja
+- CSS: klasa dla linków tylko w buttonie (żeby zabrać podkreślenie tylko im)
 
 <hr><hr>
 

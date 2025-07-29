@@ -1,24 +1,26 @@
 h1 {
   margin-bottom: 0.5em;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+header h1 {
+  margin-bottom: 0.5em;
   font-family: "Crimson Text", serif;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
+  letter-spacing: -0.04em;
+  text-indent: 5%;
 }
 
 h2 {
   margin-bottom: 0.5em;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-}
-
-h3 {
-  margin-bottom: 0.5em;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 400;
   font-style: oblique;
 }
 
@@ -47,8 +49,12 @@ button {
   font-weight: 300;
   font-style: normal;
   text-decoration: none;
+  text-align: center;
+  padding: 5px;
 }
 
-a {
+button a {
   text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
 }
