@@ -61,6 +61,7 @@
 - odpaliłam i podpięłam styles.css, żeby nie kombinować ręcznie ze stylowaniem
 - przejrzałam tysiąc fontów i żaden mi się nie podoba :p
 - poprawiłam sobie układ i nazwy folderów/repozytorium, nauczyłam się jak to edytować i od czego zależy połączenie Git<=>local (m.in. update nazwy repo w terminalu)
+- stworzyłam Workspace w VSCode, żeby nie mieszać projektu z rzeczami, które czasem sobie tu otwieram
 
 <br>
 
