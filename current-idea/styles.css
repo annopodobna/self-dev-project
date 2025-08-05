@@ -21,6 +21,7 @@ h2 {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  font-size: larger;
   font-style: oblique;
 }
 
@@ -28,7 +29,7 @@ p {
   font-size: 90%;
   font-optical-sizing: auto;
   line-height: 1.5;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   font-family: "Inter", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -51,10 +52,35 @@ button {
   text-decoration: none;
   text-align: center;
   padding: 5px;
+  margin: 3px;
+}
+
+button:hover {
+  background-color: #959292;
 }
 
 button a {
   text-decoration: none;
   color: inherit;
   text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: #959292 1px solid;
+  padding-bottom: 3px;
+}
+
+.album {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  max-height: 200px;
+}
+
+.album-item {
+  margin: 3px;
+  object-fit: scale-down;
+  max-height: inherit;
 }

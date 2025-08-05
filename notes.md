@@ -8,15 +8,25 @@
 
 #### > html
 
-- temat strony -> domena (żeby później wykorzystać) **kinda done** mieszkanka.site / 1000thingsiwantedtobe.com
-- dodawać content i media **forever in progress**
-- metadata w headzie, [dobrać fonty](https://www.monotype.com/font-pairing) **in progress, nie podoba mi się jeszcze**
+- dopracować content, żeby go ładnie otagować
+- grupowanie elementów w stylesheecie CSS
+- [dobrać fonty](https://www.monotype.com/font-pairing) **in progress, nie podoba mi się jeszcze**
 - CSS: buttony w jednym rzędzie (flexbox? coś byłooo)
 - [schema](https://schema.org/) / microdata / https://schema.org/docs/gs.html
 - ligatury
+- CSS: ogarnąć różnice flexów (inline, block itd.)
+
+- temat strony -> domena (żeby później wykorzystać) **kinda done** mieszkanka.site / 1000thingsiwantedtobe.com
+- dodawać content i media **forever in progress**
+
+##### NA PÓŻNIEJ
+
+- breadcrums + otagowane schema
+- podział na podstrony zamiast one page (zgodnie z nav) + otagowanie schema
 
 #### > workflow
 
+- wypróbować staging commits
 - skrócić czas wyświetlania wskazówek albo wydłużyć hover time, bo oszaleję xd
 - prywatny komp: zreplikować błąd; sync/pull z gh przy uruchomieniu VSCode (albo chociaż info)
 - pozbyć się Google Drive z tego równania
@@ -27,7 +37,6 @@
 #### > know more
 
 - doczytać jeszcze tagi semantyczne
-- hasło staging commit **in progress** proces dzielenia na osobne commity zmian z jednego "czasu"; żeby był porządek w historii
 - doczytać o branchu origin **in progress** origin/main ->
 - CLI przypominajka mocno
 - xml -> html
@@ -53,6 +62,7 @@
 - bullety na sekcje z headingami
 - nagłówki h1 per sekcja
 - CSS: klasa dla linków tylko w buttonie (żeby zabrać podkreślenie tylko im)
+- hasło staging commit **in progress** proces dzielenia na osobne commity zmian z jednego "czasu"; żeby był porządek w historii
 
 <hr><hr>
 
