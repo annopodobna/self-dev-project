@@ -6,15 +6,22 @@
 
 # **current to dos**
 
+https://flexboxfroggy.com/
+
 #### > html
 
+- img -> picture + artybut role /aria-role
+- 5 osobnych html z linkowaniem
+- selektory do CSS / pseudoselector + specificity
+- dark mode (media queries; css variables / nesting) / bem
 - dopracować content, żeby go ładnie otagować
 - grupowanie elementów w stylesheecie CSS
 - [dobrać fonty](https://www.monotype.com/font-pairing) **in progress, nie podoba mi się jeszcze**
 - CSS: buttony w jednym rzędzie (flexbox? coś byłooo)
 - [schema](https://schema.org/) / microdata / https://schema.org/docs/gs.html
 - ligatury
-- CSS: ogarnąć różnice flexów (inline, block itd.)
+- CSS: ogarnąć różnice flexów (inline, block itd.) --> box model
+- HTML X -> web app po podziale strony na podstrony
 
 - temat strony -> domena (żeby później wykorzystać) **kinda done** mieszkanka.site / 1000thingsiwantedtobe.com
 - dodawać content i media **forever in progress**
