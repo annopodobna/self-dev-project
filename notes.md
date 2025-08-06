@@ -6,22 +6,18 @@
 
 # **current to dos**
 
-https://flexboxfroggy.com/
-
-#### > html
-
 - img -> picture + artybut role /aria-role
+- a propos picture: wsteczna kompatybilność
 - 5 osobnych html z linkowaniem
 - selektory do CSS / pseudoselector + specificity
 - dark mode (media queries; css variables / nesting) / bem
 - dopracować content, żeby go ładnie otagować
 - grupowanie elementów w stylesheecie CSS
 - [dobrać fonty](https://www.monotype.com/font-pairing) **in progress, nie podoba mi się jeszcze**
-- CSS: buttony w jednym rzędzie (flexbox? coś byłooo)
 - [schema](https://schema.org/) / microdata / https://schema.org/docs/gs.html
 - ligatury
 - CSS: ogarnąć różnice flexów (inline, block itd.) --> box model
-- HTML X -> web app po podziale strony na podstrony
+- HTMLX -> web app po podziale strony na podstrony
 
 - temat strony -> domena (żeby później wykorzystać) **kinda done** mieszkanka.site / 1000thingsiwantedtobe.com
 - dodawać content i media **forever in progress**
@@ -46,7 +42,6 @@ https://flexboxfroggy.com/
 - doczytać jeszcze tagi semantyczne
 - doczytać o branchu origin **in progress** origin/main ->
 - CLI przypominajka mocno
-- xml -> html
 
 ## _side quests - mniej ważne, do doczytania_
 
@@ -59,8 +54,9 @@ https://flexboxfroggy.com/
 
 ## ✅ already done
 
-- index.html create
-- na razie tylko html ^ raw content, bez kombinacji **in progess forever**
+- hasło staging commit **in progress** proces dzielenia na osobne commity zmian z jednego "czasu"; żeby był porządek w historii
+- CSS: buttony w jednym rzędzie (flexbox? coś byłooo)
+- index.html create - na razie tylko html ^ raw content, bez kombinacji **in progess forever**
 - preview do VS code
 - praca w folderze współdzielonym (służbowy komp + prywatny)
 - Prettier formatter
@@ -69,13 +65,20 @@ https://flexboxfroggy.com/
 - bullety na sekcje z headingami
 - nagłówki h1 per sekcja
 - CSS: klasa dla linków tylko w buttonie (żeby zabrać podkreślenie tylko im)
-- hasło staging commit **in progress** proces dzielenia na osobne commity zmian z jednego "czasu"; żeby był porządek w historii
 
 <hr><hr>
 
 # **prev meetings**
 
+## 5.08
+
+https://flexboxfroggy.com/
+
+
+
 ## 29.07
+
+xml -> html
 
 🎵 **What I've Done.mp3** 🎶
 
@@ -182,3 +185,4 @@ Note: Integrated Development Environments (IDEs) such as NetBeans (multiplatform
 Język programowania służy do tworzenia instrukcji, które komputer wykonuje, aby rozwiązać problem, przetworzyć dane, lub wykonać jakieś operacje. Języki programowania posiadają logikę, zmienne, pętle, warunki (np. if/else), funkcje, klasy itp. Przykłady to Python, Java, C++, JavaScript (używany po stronie klienta i serwera), PHP.
 
 Język znaczników (markup language) służy do strukturyzowania i formatowania danych. Definiuje on, jak treść powinna być wyświetlana i zorganizowana, ale nie wykonuje żadnych operacji logicznych.
+
