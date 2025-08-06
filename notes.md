@@ -4,7 +4,23 @@
 
 <hr><hr>
 
+# fun & games
+
+https://flexboxfroggy.com/
+https://cssbattle.dev/
+
+> do obiadu
+
+https://www.youtube.com/watch?v=TL41NpYnhWo
+https://www.youtube.com/watch?v=-e5nWsGgZXQ
+
+> do tramwaju
+
+https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
+
 # **current to dos**
+
+- class idzie do picture czy do img?
 
 - img -> picture + artybut role /aria-role
 - a propos picture: wsteczna kompatybilność
@@ -14,8 +30,8 @@
 - dopracować content, żeby go ładnie otagować
 - grupowanie elementów w stylesheecie CSS
 - [dobrać fonty](https://www.monotype.com/font-pairing) **in progress, nie podoba mi się jeszcze**
-- [schema](https://schema.org/) / microdata / https://schema.org/docs/gs.html
-- ligatury
+- [schema](https://schema.org/) / microdata / https://schema.org/docs/gs.html <-- przydatne dla SEO i dla czytników ekranu, do anotacji zawartości strony
+- ligatury fontów
 - CSS: ogarnąć różnice flexów (inline, block itd.) --> box model
 - HTMLX -> web app po podziale strony na podstrony
 
@@ -72,9 +88,15 @@
 
 ## 5.08
 
-https://flexboxfroggy.com/
+CSS jest językiem programowania! można w nim napisać działający program
 
+media queries == różne style/stylesheets w zależności od urządzenia, jego ustawień, viewportu, etc.
 
+> In CSS, use the @media at-rule to conditionally apply part of a style sheet based on the result of a media query. To conditionally apply an entire style sheet, use @import.
+
+## miejsce na problemy zauważone przy dzieleniu .html na 5 .html
+
+- kopiowanie elementów typu header & footer?
 
 ## 29.07
 
@@ -185,4 +207,3 @@ Note: Integrated Development Environments (IDEs) such as NetBeans (multiplatform
 Język programowania służy do tworzenia instrukcji, które komputer wykonuje, aby rozwiązać problem, przetworzyć dane, lub wykonać jakieś operacje. Języki programowania posiadają logikę, zmienne, pętle, warunki (np. if/else), funkcje, klasy itp. Przykłady to Python, Java, C++, JavaScript (używany po stronie klienta i serwera), PHP.
 
 Język znaczników (markup language) służy do strukturyzowania i formatowania danych. Definiuje on, jak treść powinna być wyświetlana i zorganizowana, ale nie wykonuje żadnych operacji logicznych.
-

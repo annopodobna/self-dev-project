@@ -1,12 +1,17 @@
+body {
+  background-color: #f0f0f0;
+  color: #343740;
+  font-family: "Inter", sans-serif;
+}
 h1 {
   margin-bottom: 0.5em;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
-  font-style: normal;
+  color: #111316;
 }
 
-header h1 {
+header > h1 {
   margin-bottom: 0.5em;
   font-family: "Crimson Text", serif;
   font-optical-sizing: auto;
@@ -18,7 +23,6 @@ header h1 {
 
 h2 {
   margin-bottom: 0.5em;
-  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-size: larger;
@@ -30,7 +34,6 @@ p {
   font-optical-sizing: auto;
   line-height: 1.5;
   margin-bottom: 1.5em;
-  font-family: "Inter", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
@@ -40,23 +43,35 @@ li {
   font-optical-sizing: auto;
   line-height: 1.5;
   margin-bottom: 0.25em;
-  font-family: "Inter", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
 
-button {
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: #959292 1px solid;
+  padding: 0px;
+  background-color: #016d66;
+}
+
+nav > button {
   font-family: "Inter", sans-serif;
   font-weight: 300;
-  font-style: normal;
   text-decoration: none;
   text-align: center;
-  padding: 5px;
-  margin: 3px;
+  padding: 10px 5px;
+  width: 100%;
+  border: none;
+  background-color: inherit;
+  border-right: 1px solid #959292;
+  border-left: #959292 1px solid;
 }
 
-button:hover {
-  background-color: #959292;
+nav > button:hover {
+  background-color: #00a499;
+  font-style: bold;
 }
 
 button a {
@@ -65,18 +80,12 @@ button a {
   text-transform: uppercase;
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  border-bottom: #959292 1px solid;
-  padding-bottom: 3px;
-}
-
 .album {
   display: inline-flex;
   flex-wrap: nowrap;
   max-height: 200px;
+  background-color: #cdcbcb;
+  padding: 5px;
 }
 
 .album-item {
