@@ -87,6 +87,9 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 
 ## 11.08
 
+- zastąpić h1 z tytułem - logiem / ostylowanym textem
+- poprawić na więcej h1 na pojedynczej stronie (a style się ogarnie selektorami CSS w poszczególnych sekcjach)
+
 ## miejsce na problemy zauważone przy dzieleniu .html na 5 .html
 
 - kopiowanie elementów typu header & footer?
@@ -94,6 +97,8 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 - chwała bogu za podłączony stylesheet
 - pusty link w nav przy aktualnej podstronie (ale też trzeba go osobno dla każdej podstrony)
 - wykorzystanie kluczy (?), żeby nie wpisywać 5x tego samego tekstu
+- muszę przygotować osobne meta (descrip, keywords, etc) do każdej podstrony
+- zmodyfikowanie tytułów stron (nie dało się zautomatyzować...)
 
 🎵 **What I've Done.mp3** 🎶
 

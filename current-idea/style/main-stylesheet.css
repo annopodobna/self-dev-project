@@ -53,22 +53,24 @@ nav > button a {
 
 /* headings */
 
+header > p.title {
+  margin: 0.5em 0 0 0;
+  font-family: "Crimson Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-size: xx-large;
+  font-style: normal;
+  letter-spacing: -0.04em;
+  text-indent: 5%;
+  color: #111316;
+}
+
 h1 {
   margin-bottom: 0.5em;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   color: #111316;
-}
-
-header > h1 {
-  margin-bottom: 0.5em;
-  font-family: "Crimson Text", serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
-  letter-spacing: -0.04em;
-  text-indent: 5%;
 }
 
 h2 {
@@ -113,4 +115,22 @@ li {
   margin: 3px;
   object-fit: scale-down;
   max-height: inherit;
+}
+
+/* special classes */
+
+.subpage-lead {
+  margin: 1% 5%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: #00a499;
+}
+
+.subpage-content {
+  margin: 0% 5%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }

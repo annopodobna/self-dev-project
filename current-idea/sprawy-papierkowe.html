@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- paragraph + h1-h2 font -->
+    <!-- paragraph + p-h2 font -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
     />
-    <!-- unused font -->
+    <!-- title font -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
@@ -25,7 +25,7 @@
   </head>
   <body>
     <header>
-      <h1 class="title">MieszkAnka</h1>
+      <p class="title">MieszkAnka</p>
       <nav>
         <button><a href="./index.html">Strona główna</a></button>
         <button>
@@ -40,20 +40,65 @@
         <button><a href="./sprawy-budowlane.html">Sprawy budowlane</a></button>
       </nav>
     </header>
-    <section>
+    <section class="subpage-lead">
       <h1>Sprawy papierkowe</h1>
+      <p>
+        Podatki i przepisy z dupy, czyli z czym do jakiego urzędu i o co chodzi
+        notariuszowi. A także: skąd się bierze prąd, czyli z kim i co trzeba
+        załatwić? Oraz: czy bank odmówi mi kredytu, jeśli w tytule przelewu do
+        kolegi wpiszę "hajs za narkotyki"?
+      </p>
+    </section>
+    <section class="subpage-content">
       <article>
-        <h2>Co tu znajdziesz?</h2>
+        <h1>Do załatwienia z deweloperem</h1>
         <p>
           Najpierw z deweloperem - czy to osobno? Potem umowa rezerwacji,
           kredytowe wnioski, potem podatki, zgłoszenia, wpisy do KW.
         </p>
       </article>
-
-      <!-- 
-        A moze zmienić koncepcję i zamiast na tematy podzielić na etapy? Przed
-        decyzją, w trakcie, kupno, załatwienie mediów, wykonanie, sąsiedzi itd.
-      -->
+      <article>
+        <h1>Do załatwienia z bankiem/doradcą finansowym</h1>
+        <p>kredytowe wnioski, potem podatki, zgłoszenia, wpisy do KW.</p>
+      </article>
+      <article>
+        <h1>Bonus: ubezpieczenie mieszkania</h1>
+        <p>
+          w zasadzie mogłoby być i z deweloperem, i z bankiem, bo dowód
+          posiadanego ubezpieczenia przydaje się w kilku miejscach; często jest
+          specjalna oferta dla nowych osiedli - poczekaj na info od sąsiadów/na
+          klatce
+        </p>
+      </article>
+      <article>
+        <h1>Do załatwienia z urzędami wszelkiej maści</h1>
+        <p>podatki, zgłoszenia, wpisy do KW</p>
+      </article>
+      <article>
+        <h1>Do załatwienia z dostawcami mediów</h1>
+        <p>prąd, woda, gaz, internet, telewizja - co kto lubi</p>
+        <h2>Prąd</h2>
+        <p>IMZU, umowa z dystrybutorem, stawki, podłączenie licznika</p>
+        <h2>Woda</h2>
+        <p>najpewniej wspólnota/zarządca</p>
+        <h2>Ogrzewanie</h2>
+        <p>najpewniej wspólnota/zarządca</p>
+        <h2>Gaz - jeśli jest!</h2>
+        <p>najpewniej wspólnota/zarządca</p>
+        <h2>Internet i telewizja</h2>
+        <p>
+          poczekaj i zobacz, czy nie ma przedstawiciela dzielnicy/obszaru danych
+          dostawców/firm
+        </p>
+      </article>
+      <article>
+        <h1>Bonus nr 2: wspólnota mieszkaniowa lub zarządca</h1>
+        <p>
+          prawdopodobnie będziecie chcieli zmienić zarządcę, którego narzucił
+          deweloper. Warto wykorzystać wczesny etap, kiedy sąsiedzi są jeszcze
+          dość zaangażowani i obecni - potem sporo ludzi wynajmuje
+        </p>
+      </article>
     </section>
   </body>
 </html>
