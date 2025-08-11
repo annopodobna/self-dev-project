@@ -22,10 +22,10 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 # **current to dos**
 
 - class idzie do picture czy do img?
+- czemuuu cały button nie jest klikalny (header nav)?
 
 - img -> picture + artybut role /aria-role
 - a propos picture: wsteczna kompatybilność
-- 5 osobnych html z linkowaniem
 - selektory do CSS / pseudoselector + specificity
 - dark mode (media queries; css variables / nesting) / bem
 - dopracować content, żeby go ładnie otagować
@@ -42,7 +42,7 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 ##### NA PÓŻNIEJ
 
 - breadcrums + otagowane schema
-- podział na podstrony zamiast one page (zgodnie z nav) + otagowanie schema
+- ~~podział na podstrony zamiast one page (zgodnie z nav)~~ + otagowanie schema
 
 #### > workflow
 
@@ -87,6 +87,20 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 
 # **prev meetings**
 
+## 11.08
+
+## miejsce na problemy zauważone przy dzieleniu .html na 5 .html
+
+- kopiowanie elementów typu header & footer?
+- wszystko OK, dopóki najpierw robię całość, a potem dzielę (a nie robię od nowa 5x to samo)
+- chwała bogu za podłączony stylesheet
+- pusty link w nav przy aktualnej podstronie
+- wykorzystanie kluczy (?), żeby nie wpisywać 5x tego samego tekstu
+
+🎵 **What I've Done.mp3** 🎶
+
+- 5 osobnych html z linkowaniem
+
 ## 5.08
 
 CSS jest językiem programowania! można w nim napisać działający program
@@ -95,17 +109,9 @@ media queries == różne style/stylesheets w zależności od urządzenia, jego u
 
 > In CSS, use the @media at-rule to conditionally apply part of a style sheet based on the result of a media query. To conditionally apply an entire style sheet, use @import.
 
-## miejsce na problemy zauważone przy dzieleniu .html na 5 .html
-
-- kopiowanie elementów typu header & footer?
-- wszystko OK, dopóki najpierw robię całość, a potem dzielę (a nie robię od nowa 5x to samo)
-- chwała bogu za podłączony stylesheet
-
 ## 29.07
 
 xml -> html
-
-🎵 **What I've Done.mp3** 🎶
 
 - przypomniałam sobie md, żeby mniej się wkurzać na formę notatek (i więcej w nich widzieć)
 - zmieniłam koncepcję contentu/tematyki strony 🙃 (czy ostatecznie? zobaczymy...)
@@ -181,11 +187,12 @@ Zawsze podawaj generyczną rodzinę czcionek (np. sans-serif, serif, monospace) 
 
 Nie importuj zbyt wielu czcionek ani stylów. Każda dodatkowa czcionka i styl zwiększa rozmiar strony i czas ładowania. Wybieraj tylko te, których naprawdę potrzebujesz.
 
-Zwróć uwagę na parametr display=swap w linku. Jest to zalecana praktyka (domyślna w Google Fonts), która pomaga poprawić wydajność. Powoduje, że tekst jest początkowo renderowany z domyślną czcionką systemową, a następnie przełącza się na czcionkę Google, gdy ta zostanie załadowana, zapobiegając "niewidzialnemu tekstowi podczas ładowania".
+Zwróć uwagę na **parametr display=swap w linku**. Jest to zalecana praktyka (domyślna w Google Fonts), która pomaga poprawić wydajność. Powoduje, że tekst jest początkowo renderowany z domyślną czcionką systemową, a następnie przełącza się na czcionkę Google, gdy ta zostanie załadowana, zapobiegając "niewidzialnemu tekstowi podczas ładowania".
 
-### comments in HTML
+### comments in HTML (and generally)
 
-< !-- code you want to disable -- >
+< !-- HTML code you want to disable -- >
+/_ CSS code you want to disable _/
 
 You can use comments to temporarily disable part of your code so it’s not displayed by the browser.
 
@@ -207,6 +214,6 @@ Note: Integrated Development Environments (IDEs) such as NetBeans (multiplatform
 
 ### język programowania vs język znaczników
 
-Język programowania służy do tworzenia instrukcji, które komputer wykonuje, aby rozwiązać problem, przetworzyć dane, lub wykonać jakieś operacje. Języki programowania posiadają logikę, zmienne, pętle, warunki (np. if/else), funkcje, klasy itp. Przykłady to Python, Java, C++, JavaScript (używany po stronie klienta i serwera), PHP.
+**Język programowania** służy do tworzenia instrukcji, które komputer wykonuje, aby rozwiązać problem, przetworzyć dane, lub wykonać jakieś operacje. Języki programowania posiadają logikę, zmienne, pętle, warunki (np. if/else), funkcje, klasy itp. Przykłady to Python, Java, C++, JavaScript (używany po stronie klienta i serwera), PHP.
 
-Język znaczników (markup language) służy do strukturyzowania i formatowania danych. Definiuje on, jak treść powinna być wyświetlana i zorganizowana, ale nie wykonuje żadnych operacji logicznych.
+**Język znaczników** (markup language) służy do strukturyzowania i formatowania danych. Definiuje on, jak treść powinna być wyświetlana i zorganizowana, ale nie wykonuje żadnych operacji logicznych.
