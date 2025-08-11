@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>MieszkAnka</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- paragraph + h1-h2 font -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    />
+    <!-- unused font -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    />
+    <link rel="stylesheet" href="style/main-stylesheet.css" />
+    <meta
+      name="description"
+      content="Poradnik, który tworzę w trakcie kupowania pierwszego mieszkania."
+    />
+    <meta name="author" content="amk" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">MieszkAnka</h1>
+      <nav>
+        <button><a href="./index.html">Strona główna</a></button>
+        <button>
+          <a href="./sprawy-koncepcyjne.html">Sprawy koncepcyjne</a>
+        </button>
+        <button>
+          <a href="./sprawy-papierkowe.html">Sprawy papierkowe</a>
+        </button>
+        <button>
+          <a href="./sprawy-projektowe.html">Sprawy projektowe</a>
+        </button>
+        <button><a href="./sprawy-budowlane.html">Sprawy budowlane</a></button>
+      </nav>
+    </header>
+    <section id="sprawy-projektowe">
+      <hr />
+      <h1>Sprawy projektowe</h1>
+      <article>
+        <h2>Co tu znajdziesz?</h2>
+        <p>
+          Czy chcesz architekta? Nie musisz, da się bez. Szczególnie, gdy masz
+          chłopaka prawie architekta. Ale fajne są usługi sprawdzenia własnego
+          projektu. Jeśli masz dobrego fachowca, to możesz bez architekta.
+          <strong
+            >Jeśli nie masz dobrego fachowca, to lepiej mieć architekta</strong
+          >. Zbieraj faktury, podpisuj umowy itd.
+        </p>
+        <p>
+          Nie interesują Cię trendy, ale to, jak żyjesz na co dzień. Co Cię
+          denerwuje? Jakie masz plany?
+        </p>
+        <div class="album">
+          <!-- class idzie do picture czy do img??? -->
+          <picture class="album">
+            <img
+              class="album-item"
+              src="media/kafelki.jpg"
+              alt="Kolaż płytek do łazienki. Zawiera trzy płytki: gładką antracytową, białą z delikatnym wzorem i turkusowy arkusz mozaiki w kształcie rybich łusek."
+            />
+          </picture>
+          <picture class="album">
+            <img
+              class="album-item"
+              src="media/panele.jpg"
+              alt="Kolaż paneli i płytek na podłogę. Zawiera dwa panele w jaśniejszym i ciemniejszym odcieniu drewna oraz jedną płytkę imitującą ciemne drewno."
+            />
+          </picture>
+          <picture class="album">
+            <img
+              class="album-item"
+              src="media/panel1.jpg"
+              alt="Pojedynczy panel trzymany w ręku przez mężczyznę w sklepe. Panel jest w ciepłym odcieniu jasnego drewna, z widocznymi słojami."
+            />
+          </picture>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>
