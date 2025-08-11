@@ -1,3 +1,4 @@
+> - [🪀 fun & games](#fun--games)
 > - [👇 current to dos](#current-to-dos)
 > - [👀 prev meetings](#prev-meetings)
 > - [📝 random notes](#random-notes)
@@ -97,6 +98,8 @@ media queries == różne style/stylesheets w zależności od urządzenia, jego u
 ## miejsce na problemy zauważone przy dzieleniu .html na 5 .html
 
 - kopiowanie elementów typu header & footer?
+- wszystko OK, dopóki najpierw robię całość, a potem dzielę (a nie robię od nowa 5x to samo)
+- chwała bogu za podłączony stylesheet
 
 ## 29.07
 
