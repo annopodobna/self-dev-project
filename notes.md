@@ -41,33 +41,31 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 
 ##### NA PÓŻNIEJ
 
+- osobna szybka navi dla czytników jak tutaj: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout (w inspektorze: od "\<ul id="nav-access" class="a11y-nav">\")
 - breadcrums + otagowane schema
 - ~~podział na podstrony zamiast one page (zgodnie z nav)~~ + otagowanie schema
 
 #### > workflow
 
-- wypróbować staging commits
 - skrócić czas wyświetlania wskazówek albo wydłużyć hover time, bo oszaleję xd
 - prywatny komp: zreplikować błąd; sync/pull z gh przy uruchomieniu VSCode (albo chociaż info)
 - pozbyć się Google Drive z tego równania
 - problemy z odświeżaniem preview - inne rozszerzenie?
 - dokończyć ustawienia/przegląd możliwości w VS Code
 - wymyslić sposób pracy **in progress i guess?** (~~GDrive~~, GKeep notes, mobile code editing; do ogarnięcia: regularne sloty na pracę)
-
-#### > know more
-
 - doczytać jeszcze tagi semantyczne
+
+## _side quests: mniej ważne albo do doczytania_
+
 - doczytać o branchu origin **in progress** origin/main ->
 - CLI przypominajka mocno
-
-## _side quests - mniej ważne, do doczytania_
-
 - na kiedyś: notatki nie w markdownie, może html? chciałabym spis treści, linkowanie
+- wypróbować staging commits
 - doczytać: system zmian GDocs CRDT (czyli oparte na czasie) vs Git merge conflict (czyli spr, czy mają wpływ na siebie, porównują różnice i pyta)
 - czy w md mogę ingerować w sposób stylowania?
 - alternatywa typu code coach dla Copilota
 - --> sprawdzić WebStorm (gdy będę mogła już zmigrować ustawienia z VS)
-  (nieaktualne, do idead1) - obiekt/badge w CSS + modal/warstwa po kliku
+  (nieaktualne, do idead1) - obiekt/badge w CSS + modal/warstwa po kliku (a może jednak?!!!! da się to napisać w CSS, chyba!)
 
 ## ✅ already done
 
@@ -94,12 +92,13 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 - kopiowanie elementów typu header & footer?
 - wszystko OK, dopóki najpierw robię całość, a potem dzielę (a nie robię od nowa 5x to samo)
 - chwała bogu za podłączony stylesheet
-- pusty link w nav przy aktualnej podstronie
+- pusty link w nav przy aktualnej podstronie (ale też trzeba go osobno dla każdej podstrony)
 - wykorzystanie kluczy (?), żeby nie wpisywać 5x tego samego tekstu
 
 🎵 **What I've Done.mp3** 🎶
 
 - 5 osobnych html z linkowaniem
+- odkryłam podgląd darkMode w inspectorze (big wow)
 
 ## 5.08
 
