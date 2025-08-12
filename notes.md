@@ -8,6 +8,7 @@
 # fun & games
 
 https://flexboxfroggy.com/
+
 https://cssbattle.dev/
 
 > do obiadu
@@ -24,12 +25,32 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 - class idzie do picture czy do img?
 - czemuuu cały button nie jest klikalny (header nav)?
 
+- https://htmx.org/
+- 1 header to rule them all
+- nav, bez duplikatów w kodzie
+
+- squarespace - kupić domenę https://domains.squarespace.com/
+- recordy typu A - github
+  https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+  To create A records, point your apex domain to the IP addresses for GitHub Pages.
+
+  185.199.108.153
+  185.199.109.153
+  185.199.110.153
+  185.199.111.153
+  To create AAAA records, point your apex domain to the IP addresses for GitHub Pages.
+
+2606:50c0:8000::153
+2606:50c0:8001::153
+2606:50c0:8002::153
+2606:50c0:8003::153
+
+- **in progress** selektory do CSS / pseudoselector + specificity
+- **!** dark mode (media queries; css variables / nesting)
+- **in progress** CSS BEM
 - img -> picture + artybut role /aria-role
 - a propos picture: wsteczna kompatybilność
-- selektory do CSS / pseudoselector + specificity
-- dark mode (media queries; css variables / nesting) / bem
 - dopracować content, żeby go ładnie otagować
-- grupowanie elementów w stylesheecie CSS
 - [dobrać fonty](https://www.monotype.com/font-pairing) **in progress, nie podoba mi się jeszcze**
 - [schema](https://schema.org/) / microdata / https://schema.org/docs/gs.html <-- przydatne dla SEO i dla czytników ekranu, do anotacji zawartości strony
 - ligatury fontów
@@ -47,10 +68,8 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 
 #### > workflow
 
-- skrócić czas wyświetlania wskazówek albo wydłużyć hover time, bo oszaleję xd
 - prywatny komp: zreplikować błąd; sync/pull z gh przy uruchomieniu VSCode (albo chociaż info)
 - pozbyć się Google Drive z tego równania
-- problemy z odświeżaniem preview - inne rozszerzenie?
 - dokończyć ustawienia/przegląd możliwości w VS Code
 - wymyslić sposób pracy **in progress i guess?** (~~GDrive~~, GKeep notes, mobile code editing; do ogarnięcia: regularne sloty na pracę)
 - doczytać jeszcze tagi semantyczne
@@ -66,6 +85,8 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 - alternatywa typu code coach dla Copilota
 - --> sprawdzić WebStorm (gdy będę mogła już zmigrować ustawienia z VS)
   (nieaktualne, do idead1) - obiekt/badge w CSS + modal/warstwa po kliku (a może jednak?!!!! da się to napisać w CSS, chyba!)
+- skrócić czas wyświetlania wskazówek albo wydłużyć hover time, bo oszaleję xd
+- problemy z odświeżaniem preview - inne rozszerzenie?
 
 ## ✅ already done
 
@@ -80,6 +101,7 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 - bullety na sekcje z headingami
 - nagłówki h1 per sekcja
 - CSS: klasa dla linków tylko w buttonie (żeby zabrać podkreślenie tylko im)
+- grupowanie elementów w stylesheecie CSS
 
 <hr><hr>
 
@@ -88,6 +110,8 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 ## 11.08
 
 - zastąpić h1 z tytułem - logiem / ostylowanym textem
+
+- old way::: <?php include("gdm.html") ?> & echo
 
 ## miejsce na problemy zauważone przy dzieleniu .html na 5 .html
 
