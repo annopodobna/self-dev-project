@@ -125,7 +125,7 @@ li {
   display: flex;
   flex-direction: column;
   align-content: center;
-  background-color: #00a499;
+  background-color: #00a49977;
 }
 
 .subpage-content {
@@ -133,4 +133,30 @@ li {
   display: flex;
   flex-direction: column;
   align-content: center;
+}
+
+.updates {
+  padding: 1%;
+  border: #343740 2px solid;
+  background-color: #e0e0e0;
+}
+
+.tiles {
+  display: flex;
+  /* tuuuu potrzebuję mediaquery dla wrap/nowrap?*/
+  flex-flow: row nowrap;
+}
+
+.tiles div {
+  background-color: rgba(0, 128, 128, 0.458);
+  margin: 1%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subpage-content > article:not(:last-child) {
+  display: block;
+  border-bottom: 1px solid #959292;
 }

@@ -88,7 +88,6 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 ## 11.08
 
 - zastąpić h1 z tytułem - logiem / ostylowanym textem
-- poprawić na więcej h1 na pojedynczej stronie (a style się ogarnie selektorami CSS w poszczególnych sekcjach)
 
 ## miejsce na problemy zauważone przy dzieleniu .html na 5 .html
 
@@ -104,6 +103,7 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 
 - 5 osobnych html z linkowaniem
 - odkryłam podgląd darkMode w inspectorze (big wow)
+- poprawić na więcej h1 na pojedynczej stronie (a style się ogarnie selektorami CSS w poszczególnych sekcjach)
 
 ## 5.08
 
