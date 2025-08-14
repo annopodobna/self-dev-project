@@ -16,6 +16,15 @@ section {
   align-content: center;
 }
 
+footer {
+  font-size: smaller;
+  color: lightslategray;
+  font-family: "Crimson Text", serif;
+  border-top: lightslategray 1px solid;
+  margin-top: 5%;
+  padding: 1%;
+}
+
 /* navigation */
 
 nav {
