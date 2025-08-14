@@ -22,9 +22,6 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 
 # **current to dos**
 
-- class idzie do picture czy do img?
-- czemuuu cały button nie jest klikalny (header nav)?
-
 - https://htmx.org/
 - 1 header to rule them all
 - nav, bez duplikatów w kodzie
@@ -36,28 +33,37 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
   To create A records, point your apex domain to the IP addresses for GitHub Pages.
 
   185.199.108.153
+
   185.199.109.153
+
   185.199.110.153
+
   185.199.111.153
 
   To create AAAA records, point your apex domain to the IP addresses for GitHub Pages.
 
 2606:50c0:8000::153
+
 2606:50c0:8001::153
+
 2606:50c0:8002::153
+
 2606:50c0:8003::153
 
-- **in progress** selektory do CSS / pseudoselector + specificity
 - **!** dark mode (media queries; css variables / nesting)
-- **in progress** CSS BEM
 - img -> picture + artybut role /aria-role
 - a propos picture: wsteczna kompatybilność
-- dopracować content, żeby go ładnie otagować
-- [dobrać fonty](https://www.monotype.com/font-pairing) **in progress, nie podoba mi się jeszcze**
 - [schema](https://schema.org/) / microdata / https://schema.org/docs/gs.html <-- przydatne dla SEO i dla czytników ekranu, do anotacji zawartości strony
-- ligatury fontów
-- CSS: ogarnąć różnice flexów (inline, block itd.) --> box model
 - HTMLX -> web app po podziale strony na podstrony
+
+##### moje
+
+- metody GET, POST - endpointy - baza danych na serwerze - what is going ooooon
+- zrozumieć: framework
+- class idzie do picture czy do img?
+- czemuuu cały button nie jest klikalny (header nav)?
+- dopracować content, żeby go ładnie otagować
+- CSS: ogarnąć różnice flexów (inline, block itd.) --> box model
 
 - temat strony -> domena (żeby później wykorzystać) **kinda done** mieszkanka.site / 1000thingsiwantedtobe.com
 - dodawać content i media **forever in progress**
@@ -78,9 +84,14 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 
 ## _side quests: mniej ważne albo do doczytania_
 
+- CDN as Content Delivery Network
+- **in progress** selektory do CSS / pseudoselector + specificity
+- **in progress** CSS BEM
 - doczytać o branchu origin **in progress** origin/main ->
+- ligatury fontów
 - CLI przypominajka mocno
 - na kiedyś: notatki nie w markdownie, może html? chciałabym spis treści, linkowanie
+- [dobrać fonty](https://www.monotype.com/font-pairing) **in progress, nie podoba mi się jeszcze**
 - wypróbować staging commits
 - doczytać: system zmian GDocs CRDT (czyli oparte na czasie) vs Git merge conflict (czyli spr, czy mają wpływ na siebie, porównują różnice i pyta)
 - czy w md mogę ingerować w sposób stylowania?
