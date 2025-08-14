@@ -85,6 +85,7 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 ## _side quests: mniej ważne albo do doczytania_
 
 - CDN as Content Delivery Network
+- HTTP methods
 - **in progress** selektory do CSS / pseudoselector + specificity
 - **in progress** CSS BEM
 - doczytać o branchu origin **in progress** origin/main ->
