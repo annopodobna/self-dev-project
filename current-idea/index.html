@@ -4,7 +4,7 @@
     <title>MieszkAnka</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.6/dist/htmx.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.6/dist/htmx.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- paragraph + h1-h2 font -->
@@ -25,24 +25,16 @@
     <meta name="author" content="amk" />
   </head>
   <body>
-    <header>
-      <p class="title">MieszkAnka</p>
-      <nav>
-        <button><a href="#">Strona główna</a></button>
-        <button>
-          <a href="./sprawy-koncepcyjne.html">Sprawy koncepcyjne</a>
-        </button>
-        <button>
-          <a href="./sprawy-papierkowe.html">Sprawy papierkowe</a>
-        </button>
-        <button>
-          <a href="./sprawy-projektowe.html">Sprawy projektowe</a>
-        </button>
-        <button><a href="./sprawy-budowlane.html">Sprawy budowlane</a></button>
-      </nav>
-    </header>
+    <header hx-get="htmx-elements/header.html" hx-trigger="load"></header>
     <section>
-      <p style="margin-left: 25%; margin-top: 4%; padding: 12px; font-style: italic">
+      <p
+        style="
+          margin-left: 25%;
+          margin-top: 4%;
+          padding: 12px;
+          font-style: italic;
+        "
+      >
         Lubisz mieć dach nad głową? Jasne, to dość popularne hobby. Wszyscy
         chcemy być domni. Jeśli planujesz opuścić grono wierzących
         niepraktykujących i w końcu przenieść się na swoje - może nie być lekko.
@@ -74,37 +66,29 @@
         </p>
       </article>
     </section>
-      <section class="updates">
-        <h1>Aktualizacje – na jakim etapie jesteśmy?</h1>
-        <article>
-          <h2>Stan na: sierpień 2025</h2>
-          <p>
-            Mieszkanie jest już kupione, kredyt się spłaca. Wykończenie w toku:
-            mamy położone gładzie i wylewki, ale panele i kafelki czekają na
-            swoją kolej. Podobnie jak armatura do łazienki i zmiękczacz wody.
-            Najnowsze osiągnięcie to grzejnik kanałowy w końcu na swoim miejscu.
-            Co prawda jeszcze nie grzeje, ale patrzyliście na datę? Jest
-            sierpień. Poszliśmy w końcu do Enei zadać sakramentalne pytanie.
-            Okazało się, że jednak chcą, żeby im płacić. No cóż.
-          </p>
-        </article>
-        <article>
-          <h2>Stan na: lipiec 2025</h2>
-          <p>
-            Mamy już prąd, ale za niego nie płacimy. Nadal się waham, czy iść do
-            Enei zapytać, czy chcą moje pieniądze. Poza tym dużo się nie
-            zmieniło - ten miesiąc obfitował w ważniejsze sprawy, na przykład
-            urlop.
-          </p>
-        </article>
-      </section>
+    <section class="updates">
+      <h1>Aktualizacje – na jakim etapie jesteśmy?</h1>
+      <article>
+        <h2>Stan na: sierpień 2025</h2>
+        <p>
+          Mieszkanie jest już kupione, kredyt się spłaca. Wykończenie w toku:
+          mamy położone gładzie i wylewki, ale panele i kafelki czekają na swoją
+          kolej. Podobnie jak armatura do łazienki i zmiękczacz wody. Najnowsze
+          osiągnięcie to grzejnik kanałowy w końcu na swoim miejscu. Co prawda
+          jeszcze nie grzeje, ale patrzyliście na datę? Jest sierpień. Poszliśmy
+          w końcu do Enei zadać sakramentalne pytanie. Okazało się, że jednak
+          chcą, żeby im płacić. No cóż.
+        </p>
+      </article>
+      <article>
+        <h2>Stan na: lipiec 2025</h2>
+        <p>
+          Mamy już prąd, ale za niego nie płacimy. Nadal się waham, czy iść do
+          Enei zapytać, czy chcą moje pieniądze. Poza tym dużo się nie zmieniło
+          - ten miesiąc obfitował w ważniejsze sprawy, na przykład urlop.
+        </p>
+      </article>
     </section>
   </body>
-  <footer>
-    <p>
-      2025 @ amk
-      <br>
-      Tworzę tę stronę w ramach nauki web developmentu (i przy okazji wyładowania frustracji związanej z zakupem mieszkania). Znajdziesz ją też na moim <a href="https://github.com/annopodobna" target="_blank">GitHubie</a>. Nie odpowiadam za błędne decyzje życiowe, które podejmiesz na podstawie zamieszczonych tu treści.
-    </p>
-  </footer>
+  <footer hx-get="htmx-elements/footer.html" hx-trigger="load"></footer>
 </html>

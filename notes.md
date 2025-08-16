@@ -22,7 +22,7 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 
 # **current to dos**
 
-- https://htmx.org/
+- https://htmx.org/ <--- jak logicznie rozwiązać opóźnienia w ładowaniu tych elementów? (właściwy content też w osobnym pliku?)
 - 1 header to rule them all
 - nav, bez duplikatów w kodzie
 
