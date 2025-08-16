@@ -23,8 +23,6 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 # **current to dos**
 
 - https://htmx.org/ <--- jak logicznie rozwiązać opóźnienia w ładowaniu tych elementów? (właściwy content też w osobnym pliku?)
-- 1 header to rule them all
-- nav, bez duplikatów w kodzie
 
 - squarespace - kupić domenę https://domains.squarespace.com/
 - recordy typu A - github
@@ -57,6 +55,9 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 - HTMLX -> web app po podziale strony na podstrony
 
 ##### moje
+
+- zastąpić h1 z tytułem - logiem / ostylowanym textem
+- dodać formularz typu "dodaj swoją poradę"
 
 - metody GET, POST - endpointy - baza danych na serwerze - what is going ooooon
 - zrozumieć: framework
@@ -104,6 +105,9 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 
 ## ✅ already done
 
+- 5 osobnych html z linkowaniem
+- odkryłam podgląd darkMode w inspectorze (big wow)
+- poprawić na więcej h1 na pojedynczej stronie (a style się ogarnie selektorami CSS w poszczególnych sekcjach)
 - hasło staging commit **in progress** proces dzielenia na osobne commity zmian z jednego "czasu"; żeby był porządek w historii
 - CSS: buttony w jednym rzędzie (flexbox? coś byłooo)
 - index.html create - na razie tylko html ^ raw content, bez kombinacji **in progess forever**
@@ -121,11 +125,16 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 
 # **prev meetings**
 
+## 19.08
+
+🎵 **What I've Done.mp3** 🎶
+
+- 1 header to rule them all
+- nav, bez duplikatów w kodzie
+
 ## 11.08
 
-- zastąpić h1 z tytułem - logiem / ostylowanym textem
-
-- old way::: <?php include("gdm.html") ?> & echo
+- old way: <?php include("gdm.html") ?> & echo
 
 ## miejsce na problemy zauważone przy dzieleniu .html na 5 .html
 
@@ -136,12 +145,6 @@ https://medium.com/cssclass-com/how-to-create-pure-css-games-2a29c777bf4
 - wykorzystanie kluczy (?), żeby nie wpisywać 5x tego samego tekstu
 - muszę przygotować osobne meta (descrip, keywords, etc) do każdej podstrony
 - zmodyfikowanie tytułów stron (nie dało się zautomatyzować...)
-
-🎵 **What I've Done.mp3** 🎶
-
-- 5 osobnych html z linkowaniem
-- odkryłam podgląd darkMode w inspectorze (big wow)
-- poprawić na więcej h1 na pojedynczej stronie (a style się ogarnie selektorami CSS w poszczególnych sekcjach)
 
 ## 5.08
 
