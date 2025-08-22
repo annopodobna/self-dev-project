@@ -4,9 +4,13 @@
   font-family: "Inter", sans-serif;
 }
 
+a {
+  color: #00312d;
+}
+
 body {
   background-color: #ffffff;
-  color: #343740;
+  color: #242526;
   display: flex;
   flex-direction: column;
   max-width: 100%;
@@ -21,11 +25,12 @@ section {
 
 footer {
   font-size: smaller;
-  color: lightslategray;
+  color: whitesmoke;
   font-family: "Crimson Text", serif;
-  border-top: lightslategray 1px solid;
+  border-top: #00312d 5px solid;
   margin-top: 5%;
   padding: 1%;
+  background-color: #00877e;
 }
 
 /* navigation */
@@ -34,7 +39,6 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border-bottom: #959292 1px solid;
   padding: 0px;
 }
 
@@ -43,10 +47,10 @@ nav a {
   text-decoration: none;
   text-align: center;
   align-content: center;
-  padding: 10px 15px;
+  padding: 15px 15px;
   width: 100%;
-  border-right: 1px solid #959292;
-  border-left: 1px solid #959292;
+  border-right: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
   background-color: #00877e;
   color: whitesmoke;
   text-transform: uppercase;
@@ -68,7 +72,7 @@ header > p.title {
   font-style: normal;
   letter-spacing: -0.04em;
   text-indent: 5%;
-  color: #111316;
+  color: #242526;
 }
 
 h1 {
@@ -76,7 +80,6 @@ h1 {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
-  color: #111316;
 }
 
 h2 {
@@ -113,7 +116,7 @@ li {
   display: inline-flex;
   flex-wrap: nowrap;
   max-height: 200px;
-  background-color: #cdcbcb;
+  background-color: #00312d;
   padding: 5px;
 }
 
@@ -125,13 +128,41 @@ li {
 
 /* special classes */
 
+.main-quote {
+  background-color: #00312d;
+  color: #ffffff;
+  margin-top: 2%;
+}
+
+.main-quote > p {
+  margin-left: 3%;
+  margin-right: 5%;
+  padding: 12px;
+  font-style: italic;
+  border-left: 5px solid #00877e;
+}
 .subpage-lead {
-  margin: 1% 5%;
-  padding: 1%;
+  background-color: #00312d;
+  color: #ffffff;
+  margin-top: 2%;
   display: flex;
   flex-direction: column;
   align-content: center;
-  background-color: #00a49977;
+}
+
+.subpage-lead > h1 {
+  font-family: "Crimson Text", serif;
+  margin-left: 2%;
+  margin-right: 5%;
+  margin-bottom: 0;
+}
+
+.subpage-lead > p {
+  font-style: italic;
+  margin-left: 3%;
+  margin-right: 5%;
+  padding: 12px;
+  border-left: 5px solid #00877e;
 }
 
 .subpage-content {
@@ -143,7 +174,7 @@ li {
 
 .updates {
   padding: 1%;
-  border: #343740 2px solid;
+  border: #00312d 2px solid;
   background-color: #e0e0e0;
 }
 
@@ -164,5 +195,5 @@ li {
 
 .subpage-content > article:not(:last-child) {
   display: block;
-  border-bottom: 1px solid #959292;
+  border-bottom: 5px solid #00877e;
 }
