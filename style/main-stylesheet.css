@@ -44,8 +44,7 @@ nav {
   padding: 0px;
 }
 
-nav button,
-a {
+nav a {
   font-size: small;
   text-decoration: none;
   text-align: center;
@@ -61,8 +60,7 @@ a {
   text-transform: uppercase;
 }
 
-nav button:hover,
-a:hover {
+nav a:hover {
   opacity: 0.7;
   transition: opacity 0.2s ease-in-out;
 }

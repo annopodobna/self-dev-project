@@ -39,6 +39,7 @@
       content="Poradnik, który tworzę w trakcie kupowania pierwszego mieszkania."
     />
     <meta name="author" content="amk" />
+    <script src="script.js"></script>
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -199,29 +200,22 @@
         </svg>
       </section>
       <nav>
-        <button
-          hx-get="./main-page.html"
-          hx-trigger="click"
-          hx-target="#main"
-          hx-swap="innerHTML"
-        >
-          Strona główna
-        </button>
-        <button hx-get="./sprawy-koncepcyjne.html" hx-target="#main">
-          Sprawy koncepcyjne
-        </button>
-        <button hx-get="./sprawy-papierkowe.html" hx-target="#main">
-          Sprawy papierkowe
-        </button>
-        <button hx-get="./sprawy-projektowe.html" hx-target="#main">
-          Sprawy projektowe
-        </button>
-        <button hx-get="./sprawy-budowlane.html" hx-target="#main">
-          Sprawy budowlane
-        </button>
+        <a onclick="onMenuClick(event)" href="/main-page">Strona główna </a>
+        <a onclick="onMenuClick(event)" href="/sprawy-koncepcyjne"
+          >Sprawy koncepcyjne
+        </a>
+        <a onclick="onMenuClick(event)" href="/sprawy-papierkowe"
+          >Sprawy papierkowe
+        </a>
+        <a onclick="onMenuClick(event)" href="/sprawy-projektowe"
+          >Sprawy projektowe
+        </a>
+        <a onclick="onMenuClick(event)" href="/sprawy-budowlane"
+          >Sprawy budowlane
+        </a>
       </nav>
     </header>
-    <section id="main" hx-get="./main-page.html" hx-trigger="load"></section>
+    <section id="main"></section>
   </body>
   <footer>
     <p>
