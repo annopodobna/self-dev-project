@@ -1,3 +1,9 @@
+/* color pallete:
+#ede7e3 basic white/bright
+#242526 basic black/dark
+#00312d dark accent: link color + footer border top
+00877e bright accent
+*/
 /* basic elements */
 
 * {
@@ -9,7 +15,7 @@ a {
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #ede7e3;
   color: #242526;
   display: flex;
   flex-direction: column;
@@ -27,7 +33,7 @@ section {
 
 footer {
   font-size: smaller;
-  color: whitesmoke;
+  color: #ede7e3;
   font-family: "Crimson Text", serif;
   border-top: #00312d 5px solid;
   margin-top: 5%;
@@ -51,12 +57,12 @@ nav a {
   align-content: center;
   padding: 15px 15px;
   width: 100%;
-  border-right: 1px solid #ffffff;
-  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ede7e3;
+  border-left: 1px solid #ede7e3;
   border-top: none;
   border-bottom: none;
   background-color: #00877e;
-  color: whitesmoke;
+  color: #ede7e3;
   text-transform: uppercase;
 }
 
@@ -134,7 +140,7 @@ li {
 
 .main-quote {
   background-color: #00312d;
-  color: #ffffff;
+  color: #ede7e3;
   margin-top: 2%;
 }
 
@@ -147,7 +153,7 @@ li {
 }
 .subpage-lead {
   background-color: #00312d;
-  color: #ffffff;
+  color: #ede7e3;
   margin-top: 2%;
   display: flex;
   flex-direction: column;
@@ -179,7 +185,7 @@ li {
 .updates {
   padding: 1%;
   border: #00312d 2px solid;
-  background-color: #e0e0e0;
+  background-color: #00877e6a;
 }
 
 .tiles {

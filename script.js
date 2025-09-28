@@ -15,13 +15,19 @@ function changeUrl(url) {
 
 function onMenuClick(event) {
   event.preventDefault();
-  const href = event.target.href + ".html";
-  loadTabContent(href);
-  changeUrl(event.target.href);
+  const href = event.target.href;
+  loadTabContent(href + ".html");
+  changeUrl(href);
   // zamiast pushState --> color na włączony button
   // 1 metoda/funkcja na wszystkie przyciski, bez mapy routes
 }
 
+function goHome(event) {
+  event.preventDefault();
+  const mainContent = "/main-page.html";
+  loadTabContent(mainContent);
+  changeUrl("/");
+}
 /* 
 document.addEventListener("DOMContentLoaded", () => {
   const mainSection = document.getElementById("main");
