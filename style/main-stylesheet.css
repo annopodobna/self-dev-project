@@ -117,7 +117,8 @@ h2 {
 
 /* other text */
 
-p {
+p,
+.paragraph {
   font-size: 90%;
   font-optical-sizing: auto;
   line-height: 1.5;
