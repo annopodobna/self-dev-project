@@ -4,6 +4,7 @@
 #00312d dark accent: link color + footer border top
 00877e bright accent
 */
+
 /* basic elements */
 
 * {
@@ -31,6 +32,10 @@ section {
   margin: auto;
 }
 
+#main {
+  margin-top: 4%;
+}
+
 footer {
   font-size: smaller;
   color: #ede7e3;
@@ -41,7 +46,23 @@ footer {
   background-color: #00877e;
 }
 
-/* navigation */
+/* header */
+
+header {
+  position: fixed; /* sticky header here */
+  left: 0;
+  right: 0;
+  background-color: #00877e;
+  top: 0;
+  border-bottom: #00312d 5px solid;
+}
+
+#logo {
+  padding: 15px;
+  width: 600px;
+  justify-content: left;
+  margin: 0;
+}
 
 nav {
   display: flex;
@@ -55,10 +76,9 @@ nav a {
   text-decoration: none;
   text-align: center;
   align-content: center;
-  padding: 15px 15px;
+  padding: 20px 10px;
+  margin: 0;
   width: 100%;
-  border-right: 1px solid #ede7e3;
-  border-left: 1px solid #ede7e3;
   border-top: none;
   border-bottom: none;
   background-color: #00877e;
@@ -72,18 +92,6 @@ nav a:hover {
 }
 
 /* headings */
-
-header > p.title {
-  margin: 0.5em 0 0 0;
-  font-family: "Crimson Text", serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-size: xx-large;
-  font-style: normal;
-  letter-spacing: -0.04em;
-  text-indent: 5%;
-  color: #242526;
-}
 
 h1 {
   margin-bottom: 0.5em;
@@ -138,19 +146,6 @@ li {
 
 /* special classes */
 
-.main-quote {
-  background-color: #00312d;
-  color: #ede7e3;
-  margin-top: 2%;
-}
-
-.main-quote > p {
-  margin-left: 3%;
-  margin-right: 5%;
-  padding: 12px;
-  font-style: italic;
-  border-left: 5px solid #00877e;
-}
 .subpage-lead {
   background-color: #00312d;
   color: #ede7e3;
@@ -183,6 +178,7 @@ li {
 }
 
 .updates {
+  margin-top: 2%;
   padding: 1%;
   border: #00312d 2px solid;
   background-color: #00877e6a;
