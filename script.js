@@ -4,9 +4,15 @@ function loadTabContent(htmlFilePath) {
     .then((text) => (document.getElementById("main").innerHTML = text));
 }
 
+// domyślnie ładujemy main-page
 document.addEventListener("DOMContentLoaded", () => {
-  const mainPageContent = "/main-page.html";
-  loadTabContent(mainPageContent);
+  let currentUrl = window.location.pathname;
+  const filePath = window.location.pathname + ".html";
+  if (currentUrl == "/") {
+    loadTabContent("/main-page.html");
+  } else {
+    loadTabContent(filePath);
+  }
 });
 
 function changeUrl(url) {
@@ -28,6 +34,16 @@ function goHome(event) {
   loadTabContent(mainContent);
   changeUrl("/");
 }
+
+// zmiana koloru aktywnej zakładki
+document.addEventListener("DOMContentLoaded", () => {
+  let currentUrl = window.location.pathname;
+  console.log(currentUrl);
+  let button = document.querySelector(`a[href='${currentUrl}']`);
+  console.log(button);
+  if (button) button.classList.add("active-button");
+});
+
 /* 
 document.addEventListener("DOMContentLoaded", () => {
   const mainSection = document.getElementById("main");
