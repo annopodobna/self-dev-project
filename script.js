@@ -34,6 +34,9 @@ function goHome(event) {
   const mainContent = "/main-page.html";
   loadTabContent(mainContent);
   changeUrl("/");
+  document
+    .querySelectorAll("nav > a")
+    .forEach((button) => button.classList.remove("active-button"));
 }
 
 function changeColor(event) {
