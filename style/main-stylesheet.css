@@ -15,13 +15,6 @@ a {
   color: #00312d;
 }
 
-link:checked {
-  background-color: #00312d;
-}
-.active-button {
-  background-color: #00312d;
-}
-
 body {
   background-color: #ede7e3;
   color: #242526;
@@ -98,6 +91,9 @@ nav a:hover {
   transition: opacity 0.2s ease-in-out;
 }
 
+nav a.active-button {
+  background-color: #00312d;
+}
 /* headings */
 
 h1 {

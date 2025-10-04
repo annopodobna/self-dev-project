@@ -24,6 +24,7 @@ function onMenuClick(event) {
   const href = event.target.href;
   loadTabContent(href + ".html");
   changeUrl(href);
+  changeColor(event);
   // zamiast pushState --> color na włączony button
   // 1 metoda/funkcja na wszystkie przyciski, bez mapy routes
 }
@@ -35,14 +36,19 @@ function goHome(event) {
   changeUrl("/");
 }
 
-// zmiana koloru aktywnej zakładki
-document.addEventListener("DOMContentLoaded", () => {
+function changeColor(event) {
+  let allButtons = document.querySelectorAll("nav > a");
+  allButtons.forEach((button) => button.classList.remove("active-button"));
+  event.target.classList.add("active-button");
+}
+// zmiana koloru aktywnej zakładki (uwzględnia organic ruch na podstrony)
+/* document.addEventListener("DOMContentLoaded", () => {
   let currentUrl = window.location.pathname;
   console.log(currentUrl);
   let button = document.querySelector(`a[href='${currentUrl}']`);
   console.log(button);
   if (button) button.classList.add("active-button");
-});
+}); */
 
 /* 
 document.addEventListener("DOMContentLoaded", () => {
