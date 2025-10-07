@@ -1,0 +1,209 @@
+/* color pallete:
+#ede7e3 basic white/bright
+#242526 basic black/dark
+#00312d dark accent: link color + footer border top
+00877e bright accent
+*/
+
+/* basic elements */
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  color: #00312d;
+}
+
+body {
+  background-color: #ede7e3;
+  color: #242526;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+section {
+  display: flex;
+  flex-direction: inherit;
+  max-width: 1248px;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#main {
+  margin-top: 4%;
+}
+
+footer {
+  font-size: smaller;
+  color: #ede7e3;
+  font-family: "Crimson Text", serif;
+  border-top: #00312d 5px solid;
+  margin-top: 5%;
+  padding: 1%;
+  background-color: #00877e;
+}
+
+/* header */
+
+header {
+  position: fixed; /* sticky header here */
+  left: 0;
+  right: 0;
+  background-color: #00877e;
+  top: 0;
+  border-bottom: #00312d 5px solid;
+}
+
+#logo {
+  padding: 15px;
+  width: 600px;
+  justify-content: left;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0px;
+}
+
+nav a {
+  font-size: small;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+  padding: 20px 10px;
+  margin: 0;
+  width: 100%;
+  border-top: none;
+  border-bottom: none;
+  background-color: #00877e;
+  color: #ede7e3;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  opacity: 0.7;
+  transition: opacity 0.2s ease-in-out;
+}
+
+nav a.active-button {
+  background-color: #00312d;
+}
+/* headings */
+
+h1 {
+  margin-bottom: 0.5em;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+}
+
+h2 {
+  margin-bottom: 0.5em;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: larger;
+  font-style: oblique;
+}
+
+/* other text */
+
+p,
+.paragraph {
+  font-size: 90%;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  margin-bottom: 1.5em;
+  font-weight: 300;
+  font-style: normal;
+}
+
+li {
+  font-size: 90%;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  margin-bottom: 0.25em;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* images */
+
+.album {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  max-height: 200px;
+  background-color: #00312d;
+  padding: 5px;
+}
+
+.album-item {
+  margin: 3px;
+  object-fit: scale-down;
+  max-height: inherit;
+}
+
+/* special classes */
+
+.subpage-lead {
+  background-color: #00312d;
+  color: #ede7e3;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.subpage-lead > h1 {
+  font-family: "Crimson Text", serif;
+  margin-left: 2%;
+  margin-right: 5%;
+  margin-bottom: 0;
+}
+
+.subpage-lead > p {
+  font-style: italic;
+  margin-left: 3%;
+  margin-right: 5%;
+  padding: 12px;
+  border-left: 5px solid #00877e;
+}
+
+.subpage-content {
+  margin: 0% 5%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.updates {
+  margin-top: 2%;
+  padding: 1%;
+  border: #00312d 2px solid;
+  background-color: #00877e6a;
+}
+
+.tiles {
+  display: flex;
+  /* tuuuu potrzebuję mediaquery dla wrap/nowrap?*/
+  flex-flow: row nowrap;
+}
+
+.tiles div {
+  background-color: rgba(0, 128, 128, 0.458);
+  margin: 1%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subpage-content > article:not(:last-child) {
+  display: block;
+  border-bottom: 5px solid #00877e;
+}
