@@ -1,7 +1,9 @@
 function changeColor(event) {
-  let allButtons = document.querySelectorAll(".active-button");
-  allButtons.forEach((button) => button.classList.remove("active-button"));
-  event.target.classList.add("active-button");
+  document.addEventListener("DOMContentLoaded", () => {
+    let allButtons = document.querySelectorAll("nav > a");
+    allButtons.forEach((button) => button.classList.remove("active-button"));
+    event.target.classList.add("active-button");
+  });
 }
 
 /* 
