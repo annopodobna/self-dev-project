@@ -148,17 +148,9 @@
             MieszkAnka - by AMK
           </svg> -->
   </a>
-  <a {% if page.name == "sprawy-koncepcyjne.html" %} class="active-button" {% endif %} href="/{{ page.name | remove_last(".html") }}"
-    >Sprawy koncepcyjne
-  </a>
-  <a {% if page.name == "sprawy-papierkowe.html" %} class="active-button" {% endif %} href="/{{ page.name | remove_last(".html") }}"
-    >Sprawy papierkowe
-  </a>
-  <a {% if page.name == "sprawy-projektowe.html" %} class="active-button" {% endif %} href="/{{ page.name | remove_last(".html") }}"
-    >Sprawy projektowe
-  </a>
-  <a {% if page.name == "sprawy-budowlane.html" %} class="active-button" {% endif %} href="/{{ page.name | remove_last(".html") }}">Sprawy budowlane </a>
-  <a {% if page.name == "dziennik-budowy.html" %} class="active-button" {% endif %} href="/{{ page.name | remove_last(".html") }}">Dziennik budowy </a>
-  <!-- <a onclick="onMenuClick(event)" href="{{ page.name | remove_last(".html") }}">Kalkulator </a> -->
+  {% for x in site.html_pages %}
+    <a {% if page.name == x %} class="active-button" {% endif %} href="/{{ x | remove_last(".html") }}"
+    > {{ x | remove_last(".html") }}</a>
+  {% endfor %}
 </nav>
 <!-- end of header.html-->
