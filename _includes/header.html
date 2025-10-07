@@ -149,8 +149,7 @@
           </svg> -->
   </a>
   {% for x in site.html_pages %}
-    <a {% if page.name == x %} class="active-button" {% endif %} href="/{{ x | remove_last(".html") }}"
-    > {{ x | remove_last(".html") }}</a>
+    <a {% if page.name == x.name %} class="active-button" {% endif %} href="{{ "/" | append: x.name | remove_last: ".html" }}"> {{ x.title | remove_last(".html") }}</a>
   {% endfor %}
 </nav>
 <!-- end of header.html-->
