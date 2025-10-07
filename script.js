@@ -4,7 +4,7 @@ function loadTabContent(htmlFilePath) {
     .then((text) => (document.getElementById("main").innerHTML = text));
 }
 
-// domyślnie ładujemy main-page
+/* domyślnie ładujemy main-page
 document.addEventListener("DOMContentLoaded", () => {
   let currentUrl = window.location.pathname;
   const filePath = window.location.pathname + ".html";
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   } else {
     loadTabContent(filePath);
   }
-});
+}); */
 
 function changeUrl(url) {
   window.history.pushState({}, "", url);
