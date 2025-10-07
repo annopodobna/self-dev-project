@@ -1,7 +1,40 @@
+function changeColor(event) {
+  let allButtons = document.querySelectorAll(".active-button");
+  allButtons.forEach((button) => button.classList.remove("active-button"));
+  event.target.classList.add("active-button");
+}
+
+/* 
+function onMenuClick(event) {
+  event.preventDefault();
+  const href = event.target.href;
+  loadTabContent(href + ".html");
+  changeUrl(href);
+  changeColor(event);
+  // zamiast pushState --> color na włączony button
+  // 1 metoda/funkcja na wszystkie przyciski, bez mapy routes
+}
+
 function loadTabContent(htmlFilePath) {
   fetch(htmlFilePath)
     .then((response) => response.text())
     .then((text) => (document.getElementById("main").innerHTML = text));
+}
+
+function changeUrl(url) {
+  window.history.pushState({}, "", url);
+}
+
+
+
+function goHome(event) {
+  event.preventDefault();
+  const mainContent = "/index.html";
+  loadTabContent(mainContent);
+  changeUrl("/");
+  document
+    .querySelectorAll("nav > a")
+    .forEach((button) => button.classList.remove("active-button"));
 }
 
 /* domyślnie ładujemy main-page
@@ -15,35 +48,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 }); */
 
-function changeUrl(url) {
-  window.history.pushState({}, "", url);
-}
-
-function onMenuClick(event) {
-  event.preventDefault();
-  const href = event.target.href;
-  loadTabContent(href + ".html");
-  changeUrl(href);
-  changeColor(event);
-  // zamiast pushState --> color na włączony button
-  // 1 metoda/funkcja na wszystkie przyciski, bez mapy routes
-}
-
-function goHome(event) {
-  event.preventDefault();
-  const mainContent = "/index.html";
-  loadTabContent(mainContent);
-  changeUrl("/");
-  document
-    .querySelectorAll("nav > a")
-    .forEach((button) => button.classList.remove("active-button"));
-}
-
-function changeColor(event) {
-  let allButtons = document.querySelectorAll("nav > a");
-  allButtons.forEach((button) => button.classList.remove("active-button"));
-  event.target.classList.add("active-button");
-}
 // zmiana koloru aktywnej zakładki (uwzględnia organic ruch na podstrony)
 /* document.addEventListener("DOMContentLoaded", () => {
   let currentUrl = window.location.pathname;
