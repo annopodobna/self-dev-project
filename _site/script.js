@@ -1,24 +1,12 @@
-function loadTabContent(htmlFilePath) {
-  fetch(htmlFilePath)
-    .then((response) => response.text())
-    .then((text) => (document.getElementById("main").innerHTML = text));
+function changeColor(event) {
+  document.addEventListener("DOMContentLoaded", () => {
+    let allButtons = document.querySelectorAll("nav > a");
+    allButtons.forEach((button) => button.classList.remove("active-button"));
+    event.target.classList.add("active-button");
+  });
 }
 
-// domyślnie ładujemy main-page
-document.addEventListener("DOMContentLoaded", () => {
-  let currentUrl = window.location.pathname;
-  const filePath = window.location.pathname + ".html";
-  if (currentUrl == "/") {
-    loadTabContent("/main-page.html");
-  } else {
-    loadTabContent(filePath);
-  }
-});
-
-function changeUrl(url) {
-  window.history.pushState({}, "", url);
-}
-
+/* 
 function onMenuClick(event) {
   event.preventDefault();
   const href = event.target.href;
@@ -29,9 +17,21 @@ function onMenuClick(event) {
   // 1 metoda/funkcja na wszystkie przyciski, bez mapy routes
 }
 
+function loadTabContent(htmlFilePath) {
+  fetch(htmlFilePath)
+    .then((response) => response.text())
+    .then((text) => (document.getElementById("main").innerHTML = text));
+}
+
+function changeUrl(url) {
+  window.history.pushState({}, "", url);
+}
+
+
+
 function goHome(event) {
   event.preventDefault();
-  const mainContent = "/main-page.html";
+  const mainContent = "/index.html";
   loadTabContent(mainContent);
   changeUrl("/");
   document
@@ -39,11 +39,17 @@ function goHome(event) {
     .forEach((button) => button.classList.remove("active-button"));
 }
 
-function changeColor(event) {
-  let allButtons = document.querySelectorAll("nav > a");
-  allButtons.forEach((button) => button.classList.remove("active-button"));
-  event.target.classList.add("active-button");
-}
+/* domyślnie ładujemy main-page
+document.addEventListener("DOMContentLoaded", () => {
+  let currentUrl = window.location.pathname;
+  const filePath = window.location.pathname + ".html";
+  if (currentUrl == "/") {
+    loadTabContent("/main-page.html");
+  } else {
+    loadTabContent(filePath);
+  }
+}); */
+
 // zmiana koloru aktywnej zakładki (uwzględnia organic ruch na podstrony)
 /* document.addEventListener("DOMContentLoaded", () => {
   let currentUrl = window.location.pathname;
