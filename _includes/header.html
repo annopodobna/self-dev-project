@@ -1,6 +1,6 @@
 <!-- start of header.html-->
 <nav>
-  <a id="logo" onclick="changeColor(event)" href="/"
+  <a id="logo" href="/"
     ><img src="/media/favicon-32x32.ico" />
     <!--
           <svg
@@ -148,7 +148,7 @@
             MieszkAnka - by AMK
           </svg> -->
   </a>
-  <a onclick="changeColor(event)" href="/sprawy-koncepcyjne"
+  <a {% if 1 == 1 %} class="active-button" {% endif %} href="/sprawy-koncepcyjne"
     >Sprawy koncepcyjne
   </a>
   <a onclick="changeColor(event)" href="/sprawy-papierkowe"
