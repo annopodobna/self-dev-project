@@ -31,7 +31,7 @@ function onMenuClick(event) {
 
 function goHome(event) {
   event.preventDefault();
-  const mainContent = "/main-page.html";
+  const mainContent = "/index.html";
   loadTabContent(mainContent);
   changeUrl("/");
   document
