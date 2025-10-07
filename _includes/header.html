@@ -148,17 +148,17 @@
             MieszkAnka - by AMK
           </svg> -->
   </a>
-  <a {% if 1 == 1 %} class="active-button" {% endif %} href="/sprawy-koncepcyjne"
+  <a {% if page.name == "sprawy-koncepcyjne.html" %} class="active-button" {% endif %} href="/{{ page.name | remove_last(".html") }}"
     >Sprawy koncepcyjne
   </a>
-  <a onclick="changeColor(event)" href="/sprawy-papierkowe"
+  <a {% if page.name == "sprawy-papierkowe.html" %} class="active-button" {% endif %} href="/{{ page.name | remove_last(".html") }}"
     >Sprawy papierkowe
   </a>
-  <a onclick="changeColor(event)" href="/sprawy-projektowe"
+  <a {% if page.name == "sprawy-projektowe.html" %} class="active-button" {% endif %} href="/{{ page.name | remove_last(".html") }}"
     >Sprawy projektowe
   </a>
-  <a onclick="changeColor(event)" href="/sprawy-budowlane">Sprawy budowlane </a>
-  <a onclick="changeColor(event)" href="/dziennik-budowy">Dziennik budowy </a>
-  <!-- <a onclick="onMenuClick(event)" href="/kalkulator">Kalkulator </a> -->
+  <a {% if page.name == "sprawy-budowlane.html" %} class="active-button" {% endif %} href="/{{ page.name | remove_last(".html") }}">Sprawy budowlane </a>
+  <a {% if page.name == "dziennik-budowy.html" %} class="active-button" {% endif %} href="/{{ page.name | remove_last(".html") }}">Dziennik budowy </a>
+  <!-- <a onclick="onMenuClick(event)" href="{{ page.name | remove_last(".html") }}">Kalkulator </a> -->
 </nav>
 <!-- end of header.html-->
