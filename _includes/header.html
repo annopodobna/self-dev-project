@@ -5,7 +5,7 @@
   </a>
   {% for x in site.html_pages %}
     {% if x.name != 'index.html' %}
-    <a {% if page.name == x.name %} class="active-button" {% endif %} href="/" + {{ x.name | remove: ".html" }}> {{ x.title }}</a>
+    <a {% if page.name == x.name %} class="active-button" {% endif %} href="/ {{ x.name | remove: ".html" }}"> {{ x.title }}</a>
     {% endif %}
   {% endfor %}
 </nav>
