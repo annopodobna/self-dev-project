@@ -28,12 +28,7 @@ layout: default
       <input id="tile-length" type="number" placeholder="cm" />
       <label class="paragraph" for="tile-width">Szerokość: </label>
       <input id="tile-width" type="number" placeholder="cm" /><br /><br />
-      <input
-        type="submit"
-        id="submit-button"
-        onclick="calculateTiles()"
-        value="Przelicz"
-      />
+      <button onclick="calculateTiles(event)">Przelicz</button>
     </form>
     <div
       class="updates"
@@ -48,18 +43,21 @@ layout: default
       </p>
     </div>
     <script>
-      function calculateTiles() {
-        let wallLength, wallWidth, tileLength, tileWidth;
-        wallLength = document.getElementById("tiles-wall-length").value;
-        wallWidth = document.getElementById("tiles-wall-Width").value;
-        tileLength = document.getElementById("tile-length").value;
-        tileWidth = document.getElementById("tile-width").value;
-        console.log(wallLength);
+            
+      function calculateTiles(event) {
+         let wallLength, wallWidth, tileLength, tileWidth;
+      wallLength = document.getElementById("tiles-wall-length").valueAsNumber;
+      wallWidth = document.getElementById("tiles-wall-width").valueAsNumber;
+      tileLength = document.getElementById("tile-length").valueAsNumber;
+      tileWidth = document.getElementById("tile-width").valueAsNumber;
+        console.log({wallLength}, {wallWidth}, {tileLength}, {tileWidth});
         let wallM2 = wallLength * wallWidth;
+        console.log({wallM2});
         document.getElementById("wall-m2-result").innerText = wallM2;
         let tileM2 = (tileLength / 100) * (tileWidth / 100);
         document.getElementById("tile-quantity-result").innerText =
           (wallM2 / tileM2) * 1.1;
+        event.preventDefault();
       }
     </script>
   </article>
