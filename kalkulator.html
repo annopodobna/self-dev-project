@@ -14,50 +14,82 @@ layout: default
 <section class="subpage-content">
   <article>
     <h1>Ile płytek kupić?</h1>
-    <form id="tiles-calculator">
+    <form onsubmit="calculateTiles(event)" id="tiles-calculator">
       <p>
         Jakie wymiary ma <b>ściana lub podłoga</b> (lub sufit, nie oceniam),
         który chcesz pokryć płytkami?
       </p>
-      <label class="paragraph" for="tiles-wall-length">Długość: </label>
-      <input id="tiles-wall-length" type="number" placeholder="m" />
-      <label class="paragraph" for="tiles-wall-width">Szerokość: </label>
-      <input id="tiles-wall-width" type="number" placeholder="m" />
+
+      <!-- walidację na liczby naturalne albo chociaż dodatnie -->
+      <label class="paragraph"
+        >Długość ściany:
+        <input name="wall-length" type="number" placeholder="m"
+      /></label>
+      <label class="paragraph"
+        >Szerokość ściany:
+        <input name="wall-width" type="number" placeholder="m"
+      /></label>
+
       <p>A jakie wymiary ma wybrana przez Ciebie <b>płytka</b>?</p>
-      <label class="paragraph" for="tile-length">Długość: </label>
-      <input id="tile-length" type="number" placeholder="cm" />
-      <label class="paragraph" for="tile-width">Szerokość: </label>
-      <input id="tile-width" type="number" placeholder="cm" /><br /><br />
-      <button onclick="calculateTiles(event)">Przelicz</button>
+      <label class="paragraph"
+        >Długość płytki:
+        <input
+          data-tile-length
+          name="tile-length"
+          type="number"
+          placeholder="cm"
+      /></label>
+
+      <label class="paragraph"
+        >Szerokość płytki:
+        <input name="tile-width" type="number" placeholder="cm"
+      /></label>
+      <br /><br />
+      <button type="submit">Przelicz</button>
+      <!--spr czy załatwia refresh przez semantykę -->
+      <!-- poprawki w CSS po przeniesieniu do output; na razie dorywczo zdivowane-->
+      <div
+        class="updates"
+        id="tiles-solution"
+        style="border: 1px solid; padding: 4px"
+      >
+        <output>
+          <p>
+            Ile m2 musisz pokryć płytkami: <span id="wall-m2-result"></span>
+          </p>
+          <p>
+            Ile płytek potrzebujesz: <span id="tile-quantity-result"></span>
+          </p>
+          <p style="font-style: italic">
+            W liczbie płytek zawiera się już <b>+10% zapasu</b>. W zależności od
+            tego, jak dobrego masz fachowca – zapas przyda się bardziej lub
+            mniej.
+          </p>
+        </output>
+      </div>
     </form>
-    <div
-      class="updates"
-      id="tiles-solution"
-      style="border: 1px solid; padding: 4px"
-    >
-      <p>Ile m2 musisz pokryć płytkami: <span id="wall-m2-result"></span></p>
-      <p>Ile płytek potrzebujesz: <span id="tile-quantity-result"></span></p>
-      <p style="font-style: italic">
-        W liczbie płytek zawiera się już <b>+10% zapasu</b>. W zależności od
-        tego, jak dobrego masz fachowca – zapas przyda się bardziej lub mniej.
-      </p>
-    </div>
     <script>
-            
       function calculateTiles(event) {
-         let wallLength, wallWidth, tileLength, tileWidth;
-      wallLength = document.getElementById("tiles-wall-length").valueAsNumber;
-      wallWidth = document.getElementById("tiles-wall-width").valueAsNumber;
-      tileLength = document.getElementById("tile-length").valueAsNumber;
-      tileWidth = document.getElementById("tile-width").valueAsNumber;
-        console.log({wallLength}, {wallWidth}, {tileLength}, {tileWidth});
-        let wallM2 = wallLength * wallWidth;
-        console.log({wallM2});
+        event.preventDefault();
+        const formAll = document.getElementById("tiles-calculator").elements;
+        console.log({ formAll });
+        const wallLength = formAll["wall-length"].valueAsNumber;
+        const wallWidth = formAll["wall-width"].valueAsNumber;
+        const tileLength = formAll["tile-length"].valueAsNumber;
+        const tileWidth = formAll["tile-width"].valueAsNumber;
+        console.log(
+          { wallLength },
+          { wallWidth },
+          { tileLength },
+          { tileWidth }
+        );
+        const wallM2 = wallLength * wallWidth;
+        console.log({ wallM2 });
         document.getElementById("wall-m2-result").innerText = wallM2;
-        let tileM2 = (tileLength / 100) * (tileWidth / 100);
+        const tileM2 = (tileLength / 100) * (tileWidth / 100);
         document.getElementById("tile-quantity-result").innerText =
           (wallM2 / tileM2) * 1.1;
-        event.preventDefault();
+        console.log({ tileM2 });
       }
     </script>
   </article>
